@@ -1,0 +1,831 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+
+}
+section {
+  width: 100%;
+  margin: 10px auto;
+  
+  padding: 5px;
+  max-width: 90%;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+article {
+  margin-top: 60px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+ 
+  width: 100%;
+  height:100vh;
+  /*background: url(circle_glow.jpg) no-repeat 50% 50%;*/
+  background-size: cover;
+  display: table;
+
+  /**/
+  
+background-image: linear-gradient(to bottom, #0e0818, #0f081d, #100821, #0f0926, #0e092b, #090c2c, #040f2d, #00112d, #001326, #00141e, #001215, #040f0e);
+}
+a{
+  color:brown;
+  font-size:17px;
+}
+p{
+  font-family:sans-serif;
+  color:#e6c081;
+   font-size:14px;
+  margin-left: 30px;
+  margin-right:30px;
+}
+
+.aktiv1 {
+background-color:darkred;
+  border-radius: 20px;
+  opacity:.7;
+ 
+  
+}
+.aktiv2 {
+  background-color: indianred;
+  border-radius:20px;
+  
+}
+
+/*Naslov u headeru...tipa tekst dobordošlice*/
+header {
+  background: #111;
+  
+}
+
+.headline {
+  position: relative;
+  margin: 0 auto;
+  height: 500px;
+  max-width:100%;
+  color: #fff;
+  text-align: center;
+  
+  background-size: cover;
+
+
+  /*-----HERO_IDEA------*/
+
+
+}
+
+.headline:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.5);
+}
+
+.inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  z-index: 2;/*10*/
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-animation: fade-in 0.95s 0.75s ease-in forwards;
+  animation: fade-in 0.95s 0.75s ease-in forwards;
+}
+
+.inner h1 {
+  margin: 0;
+  font-size: 5em;
+  line-height: 1.2em;
+  font-family: Californian FB;
+  
+
+
+  /*-----HERO_IDEA------*/
+
+}
+
+.inner p {
+  margin: 0;
+  font-size: 3.5em;
+  font-style: italic;
+  font-family: serif;/*serif*/
+  color:white;
+}
+
+/*logo??*/
+
+nav .logo {
+/*background: url("/src_struktura/_logo.JPG");*/
+  display: block;
+
+  float: left;
+  max-width: 11%;
+  max-height: 11%;
+  border-radius: 50%;
+  background: center no-repeat;
+  background-size: cover;
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.7);
+  margin: 1px;
+  padding: 5px;
+  transition: transform 1.9s ease-in;
+  position: fixed;
+  z-index: 3;/*3*/
+
+  /*new_DOWN_6.8.*/
+  
+  
+  /*- - - - - */
+  }
+nav .logo:hover {
+  box-shadow: 0px 0px 34px 11px #CAFDF6;
+}
+
+
+/*  - - START_IZBORNIK  - - - - - -  - -*/
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;/*10*/
+  
+}
+
+nav .menu {
+
+  
+  padding: 20px;
+  margin: 0;
+  background: #111;
+  width: 100%;
+  max-height:80%;
+  position: absolute;
+  /*relative  ...ako je fixed onda će biti sticky tj. ostati će  na vrhu za cijelo vrijeme dok scrollam*/
+
+  /*na dolje...novo*/
+  opacity: 0.8;
+
+  /*tHOVER EFFECT.......dolje____*/
+
+
+
+}
+
+nav .menu li {
+  float: left;
+  left: 10%;
+  display: inline-block;
+  padding: 5px 25px;/**/
+  cursor: pointer;
+ line-height: 50px;
+  position: relative;
+  top:-32px;
+  
+  margin:15px;
+  
+
+  /*tHOVER EFFECT.......dolje____*/
+
+
+
+}
+
+nav .menu li a {
+  color: #fff;
+  font-family: "Poppins";
+  
+  font-size: 21px;
+  text-decoration: none;
+  margin: 2px 0 0 3px;
+  display: block;
+  /*tHOVER EFFECT.......dolje____*/
+  text-transform: uppercase;
+
+
+
+
+  /*gore____HOVER*/
+}
+
+/***/
+
+/***/
+
+nav .menu a:hover {
+  transition: 0.3s;
+  color: #ededed;
+  font-size: 23px;
+  opacity: 0.5;
+
+  /*tHOVER EFFECT.......dolje____*/
+  /*gore____HOVER*/
+}
+
+/* ~~~~~~~~START_ pod_IZBORNIK~~~~~~~~~~*/
+
+
+
+
+.podizbornik_sadrzi {
+
+  display: none;
+  position: absolute;/*absolute*/
+  min-width: 230px;
+  padding: 0;
+  
+  z-index: 1;
+  background-color: black;
+  margin: 2px;
+  opacity: 0.8;
+  top:60px;
+  
+ 
+}
+
+.podizbornik_sadrzi li {
+  
+  text-decoration: none;
+  display: block;
+  
+}
+.podizbornik_sadrzi li a{
+
+  position:relative;
+ text-align: center;
+  left:-10%;
+}
+
+
+/*.podizbornik_sadrzi li a{
+  position:relative;
+  top:20px;
+  padding: 10px;
+  left:-10%;
+  z-index: 2;/*tu sam mijenjao jer mi se u resize-u nisu vidjeli podizbornici*/
+
+ 
+
+
+/* Show the dropdown menu on hover */
+
+.podizbornik:hover .podizbornik_sadrzi {
+  display:grid;/*grid*/
+  padding: 1px;
+  margin: 0.5% auto;
+
+}
+
+/*-----tu završava podIZBORNIK*---------/
+
+/*     ~  ~ ~ ~ ~ END_IZBORNIK  ~ ~ ~ ~ ~ ~*/
+
+
+/*.........S.a.N.D.W.I.C.H........d.o.lj.e.....*/
+
+.toggle {
+  position: relative;
+  /*fixed...ako hoćeđš da bude vidljivo kroz cijelu stranicu*/
+  right: 20px;
+  top: 14px;
+  z-index: 999;
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  float: right;
+
+  visibility: hidden;
+  /*background:;*/
+  opacity: .7;
+
+}
+
+
+.toggle .span {
+  height: 3px;
+  background: #fff;
+  transition: 0.3s;
+  backface-visibility: hidden;
+  margin: 5px auto;
+}
+
+.toggle.on #one {
+  transform: rotate(45deg) translateX(2px) translateY(4px);
+}
+
+.toggle.on #two {
+  opacity: 0;
+
+}
+
+.toggle.on #three {
+  transform: rotate(-45deg) translateX(8px) translateY(-10px);
+}
+
+.resize {
+  z-index: 4;/*1*/
+  top: 0px;
+  position: fixed;/*absolute*/
+  background: #000;
+  width: 100%;
+  height: 70%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease-out;
+  display: table;
+  padding-top: 25px;
+  
+}
+/*novo_testiranje*/
+.resize .menu{
+  
+}
+/*end_ novo_testiranje*/
+
+.resize .menu {
+ 
+  display: table-cell;/*end_ novo_testiranje*/
+  vertical-align: center;
+  
+  /*NEW_DOLJE*/
+    text-align: center;
+ }
+
+
+.resize .menu li{
+  position: relative;
+  display: block;
+    
+
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20px;
+  font-weight: 200;
+  cursor:pointer;
+ /* transition: all 0.3s ease-out;*/
+ 
+  
+  
+  
+  text-transform: uppercase;
+ 
+}
+
+
+.resize li:nth-child(1) {
+  margin-top: 10px;
+  /**/
+  margin-left:30%;
+  margin-right:30%;
+
+}
+
+.resize .menu li a {
+  color: #fff;
+  display:inline-block; /*ili block*/
+  
+}
+.resize .menu .podizbornik_sadrzi li a{
+  position:static;/*static*/
+ 
+ text-align: center;
+  font-size: 20px;
+  
+}
+.resize.active {
+  visibility: visible;
+  opacity: 0.95;
+}
+
+
+
+/*-----MAX*/
+@media(max-width:1300px) {
+
+  
+  .toggle {
+    visibility: visible;
+    /*visible */
+    opacity: 1;
+    margin-top: 6px;
+  }
+
+  /*s ovim se igraj*/
+
+  .inner {
+    display: none;
+  }
+
+
+  /*---------
+  
+  nav .logo {
+    margin-left: 68px;
+     transition: 2s ease-in;
+  }
+*/
+  .menu a {
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: 20px;
+  }
+
+  nav .menu {
+    display: none;
+  }
+
+  .podizbornik {
+    display: contents;
+
+  }
+
+ /*ne znam koja je funkcija* 
+  .podizbornik,
+  .podizbornik_sadrzi li {
+
+    text-align: center;
+    background: none;
+  }*/
+
+  .resize .podizbornik_sadrzi,
+  li a {
+    position: static;
+    box-shadow: none;
+  }
+
+}
+
+@media(min-width:768px) {
+
+  .resize {
+    visibility: hidden;
+  }
+  
+}
+
+/*....završava obrada SANDWICH-a......g-o-r-e.....*/
+
+
+/*---------------KRAJ OBRADE MENU-a----------------*/
+
+
+
+/*ovo je za prikaz slova u headeru____DOLJE____*/
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/*ovo je za prikaz slova u GORE*/
+
+/*______ FOOTER_____DOLJE...mijenjano 5.8.OLUJA*/
+
+.peta {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+  
+}
+
+.lightings {
+  bottom: -60px;
+  position: absolute;
+  width: 100%;
+}
+
+.lightings section {
+  /*border-radius*/
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  height: 20px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+
+}
+
+.one1 {
+  /*animation*/
+  -webkit-animation: one 5s ease-in-out infinite alternate;
+  -moz-animation: one 5s ease-in-out infinite alternate;
+  -ms-animation: one 5s ease-in-out infinite alternate;
+  -o-animation: one 5s ease-in-out infinite alternate;
+  animation: one 5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes one {
+  from {
+    -webkit-box-shadow: 0 0 250px 20px #473C78;
+  }
+
+  to {
+    -webkit-box-shadow: 0 0 100px 15px #F72A3B;
+  }
+}
+
+@-moz-keyframes one {
+  from {
+    -moz-box-shadow: 0 0 250px 20px #473C78;
+  }
+
+  to {
+    -moz-box-shadow: 0 0 100px 15px #F72A3B;
+  }
+}
+
+@-o-keyframes one {
+  from {
+    -o-box-shadow: 0 0 250px 20px #473C78;
+  }
+
+  to {
+    -o-box-shadow: 0 0 100px 15px #F72A3B;
+  }
+}
+
+@keyframes one {
+  from {
+    box-shadow: 0 0 250px 20px #473C78;
+  }
+
+  to {
+    box-shadow: 0 0 100px 15px #F72A3B;
+  }
+}
+
+.two2 {
+  width: 90%;
+  /*animation*/
+  -webkit-animation: two 4s ease-in-out infinite alternate;
+  -moz-animation: two 4s ease-in-out infinite alternate;
+  -ms-animation: two 4s ease-in-out infinite alternate;
+  -o-animation: two 4s ease-in-out infinite alternate;
+  animation: two 4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes two {
+  from {
+    -webkit-box-shadow: 0 0 250px 20px #18C499;
+  }
+
+  to {
+    -webkit-box-shadow: 0 0 100px 15px #D8F05E;
+  }
+}
+
+@-moz-keyframes two {
+  from {
+    -moz-box-shadow: 0 0 250px 20px #18C499;
+  }
+
+  to {
+    -moz-box-shadow: 0 0 100px 15px #D8F05E;
+  }
+}
+
+@-o-keyframes two {
+  from {
+    -o-box-shadow: 0 0 250px 20px #18C499;
+  }
+
+  to {
+    -o-box-shadow: 0 0 100px 15px #D8F05E;
+  }
+}
+
+@keyframes two {
+  from {
+    box-shadow: 0 0 250px 20px #18C499;
+  }
+
+  to {
+    box-shadow: 0 0 100px 15px #D8F05E;
+  }
+}
+
+.three3 {
+  width: 80%;
+  /*animacija*/
+  -webkit-animation: three 3s ease-in-out infinite alternate;
+  -moz-animation: three 3s ease-in-out infinite alternate;
+  -ms-animation: three 3s ease-in-out infinite alternate;
+  -o-animation: three 3s ease-in-out infinite alternate;
+  animation: three 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes three {
+  from {
+    -webkit-box-shadow: 0 0 250px 20px #FFDD00;
+  }
+
+  to {
+    -webkit-box-shadow: 0 0 100px 15px #3E33FF;
+  }
+}
+
+@-moz-keyframes three {
+  from {
+    -moz-box-shadow: 0 0 250px 20px #FFDD00;
+  }
+
+  to {
+    -moz-box-shadow: 0 0 100px 15px #3E33FF
+  }
+}
+
+@-o-keyframes three {
+  from {
+    -o-box-shadow: 0 0 250px 20px #FFDD00;
+  }
+
+  to {
+    -o-box-shadow: 0 0 100px 15px #3E33FF
+  }
+}
+
+@keyframes three {
+  from {
+    box-shadow: 0 0 250px 20px #FFDD00;
+  }
+
+  to {
+    box-shadow: 0 0 100px 15px #3E33FF
+  }
+}
+
+.four4 {
+  width: 70%;
+  /*animation*/
+  -webkit-animation: four 2s ease-in-out infinite alternate;
+  -moz-animation: four 2s ease-in-out infinite alternate;
+  -ms-animation: four 2s ease-in-out infinite alternate;
+  -o-animation: four 2s ease-in-out infinite alternate;
+  animation: four 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes four {
+  from {
+    -webkit-box-shadow: 0 0 250px 20px #781848;
+  }
+
+  to {
+    -webkit-box-shadow: 0 0 100px 15px #F2BBE9;
+  }
+}
+
+@-moz-keyframes four {
+  from {
+    -moz-box-shadow: 0 0 250px 20px #781848;
+  }
+
+  to {
+    -moz-box-shadow: 0 0 100px 15px #F2BBE9;
+  }
+}
+
+@-o-keyframes four {
+  from {
+    -o-box-shadow: 0 0 250px 20px #781848;
+  }
+
+  to {
+    -o-box-shadow: 0 0 100px 15px #F2BBE9;
+  }
+}
+
+@keyframes four {
+  from {
+    shadow: 0 0 250px 20px #781848;
+  }
+
+  to {
+    shadow: 0 0 100px 15px #F2BBE9;
+  }
+}
+
+.five5 {
+  width: 60%;
+  /*animation*/
+  -webkit-animation: five 1s ease-in-out infinite alternate;
+  -moz-animation: five 1s ease-in-out infinite alternate;
+  -ms-animation: five 1s ease-in-out infinite alternate;
+  -o-animation: five 1s ease-in-out infinite alternate;
+  animation: five 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes five {
+  from {
+    -webkit-box-shadow: 0 0 250px 20px #42F2A1;
+  }
+
+  to {
+    -webkit-box-shadow: 0 0 100px 15px #F4F6AD;
+  }
+}
+
+@-moz-keyframes five {
+  from {
+    -moz-box-shadow: 0 0 250px 20px #42F2A1;
+  }
+
+  to {
+    -moz-box-shadow: 0 0 100px 15px #F4F6AD;
+  }
+}
+
+@-o-keyframes five {
+  from {
+    -o-box-shadow: 0 0 250px 20px #42F2A1;
+  }
+
+  to {
+    -o-box-shadow: 0 0 100px 15px #F4F6AD;
+  }
+}
+
+@keyframes five {
+  from {
+    box-shadow: 0 0 250px 20px #42F2A1;
+  }
+
+  to {
+    box-shadow: 0 0 100px 15px #F4F6AD;
+  }
+}
+
+/*_____________FOTER_____GORE*/
+
+  
+.fixed_footer{
+  position:static;
+  left:0;
+  bottom:0;
+  width:100%;
+  background: #111;
+   color: #696969;
+  text-align:center;
+ 
+}
+
+.logo_footera{
+  
+  display:block;
+  position: relative;
+  background-size: cover;
+  
+}
+
+.logo_footera img{
+  
+  max-width: 11%;
+  max-height: 11%;
+  border-radius: 50%;
+  background: center no-repeat;
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.7);
+  margin: 1px;
+  padding: 5px;
+   z-index: 3;
+}
+.foot_1{
+  padding:10px;
+  
+}
+.foot_1 p{
+  padding:5px;
+  font-size:30px;
+  font-family:monospace;
+}
+  /*- - - - - */
+ 
+
+/*_ENDFOOTER_______fiksni*/
+/*---------------------------------------------*/
+/*new_DOWN_6.8.*/
+    /*- - - - - */

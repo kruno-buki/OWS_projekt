@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O meni</title>
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="src_struktura/stil_struktura.css">
+  
+    <link rel="stylesheet" href="src_o_nama/body_o_nama.css">
+
+  <script src="src_struktura/jquery-3.4.1.js"></script>
+
+  
+</head>
+
+<body>
+
+  <nav>
+    <div>
+      <a href="Pocetna.html"><img src="_logo.JPG" class="logo kut" alt="logo"></a>
+    </div>
+
+    <ul class="menu">
+      <li><a href="Pocetna.html">Doma</a> </li>
+      
+      <ul class="podizbornik">
+        <li><a href="Proizvodi.html">Proizvodi</a>
+         <ul class="podizbornik_sadrzi">
+             <li><a href="Biljni.html">Biljni</a></li>
+            <li><a href="Vocni.html">Voćni</a></li>
+            <li><a href="Premium.html" >Premium</a></li>
+            <li><a href="Special_edition.html">Special edition</a></li>
+           
+          </ul>
+        </li>
+      </ul>
+            
+      <li><a href="Funkcionalni_cajevi.html">Funkcionalni čajevi</a> </li>
+      
+        <li><a href="O_čaju.html" >O čaju</a></li>
+      
+      <li><a href="#" class="aktiv1">O nama</a></li>
+    </ul>
+
+    <div class="toggle">
+      <div class="span" id="one"></div>
+      <div class="span" id="two"></div>
+      <div class="span" id="three"></div>
+    </div>
+
+  </nav>
+
+  <header>
+    
+    <div class="headline">
+      
+      <div class="inner">
+        
+       <h1></h1>
+        <p></p>
+      </div>
+    </div>
+  </header>
+
+  <div class="resize">
+    <ul class="menu">
+      <li><a href="Pocetna.html">Doma</a> </li>
+      
+    <ul class="podizbornik">
+        <li><a href="Proizvodi.html">Proizvodi</a>
+          <ul class="podizbornik_sadrzi">
+             <li><a href="Biljni.html">Biljni</a></li>
+            <li><a href="Vocni.html">Voćni</a></li>
+            <li><a href="Premium.html" >Premium</a></li>
+            <li><a href="Special_edition.html">Special edition</a></li>
+           
+          </ul>
+        </li>
+      </ul>
+            
+       <li><a href="Funkcionalni_cajevi.html"  >Funkcionalni čajevi</a> </li>
+      
+         <li><a href="O_čaju.html" >O čaju</a></li>
+      
+      <li><a href="#" class="aktiv1">O nama</a></li>
+    </ul>
+
+  </div>
+<!-- za resize-->
+<script>
+    $(document).ready(function() {
+      console.log("ready!");
+      $(".toggle").click(function() {
+
+        $(this).toggleClass('on');
+        $(".resize").toggleClass("active");
+      })
+    })
+
+  </script>
+
+  
+  <article class="o_nama_edit">
+    <div class="granica-galerije"></div>
+    
+    <section>
+       
+         <div class="pro_slikice sli_1"></div>
+            <p>Kroz našu povijest proizvodnje vrhunskih čajeva uvijek smo se držali visokih tehnoloških standarda kako bismo očuvali što više iz prirode</p>
+        <p>Od berbe zrelih listova čajevca, kupinovih listova, latica ruža, listova svježe metvice, jagoda, manga,šipka te ostalog bilja i voća pomoću kojeg proizvodimo naš vrhunski čaj, bilo da se berba odvija u inozemstvu ili Hrvatskoj, pa do samog sušenja i prerade u našim pogonima, osigurali smo stopostotni nadzor kako bi smo osigurali kvalitetu.
+        </p>
+      
+      
+      
+      </section>
+        
+        <section class="picture_proizvoda">
+          <div class="column_centar">
+          <h2>Put uspjeha</h2> <hr> 
+          <div class="pro_slikice sli_2"> </div> 
+            </div>    
+          <div class="column_left ll">
+           <div class="pro_slikice sli_3"> </div> 
+
+        </div>
+      <div class="column lr">
+           
+        <p>Mjerenjem kvalitete u svakom postupku proizvodnje, od berbe pa do sušenja i prerade te pakiranja, proizvodimo jedne od finijih i originalnijih čajeva koje tržište može ponuditi. Držeći se visokih standarda uspijeli smo osvojiti i nekoliko nagrada  za postojanost okusa i kvalitete koju naši ljubitelji vrhunskog čaja jako dobro razumiju.
+        </p>
+      </div>
+    </section>
+  
+  
+    <section>
+      <h2>Resursi</h2><hr>
+      <div>
+        <div class="column_right rl">
+          <div class="pro_slikice sli_4"> </div>
+          
+
+      </div>
+      <div class="column_right rr">
+       
+        <p>Čajeve koje proizvodimo su kontroliranog podrijetla i to 100% prirodnog i ekološkog podrijetla.</p>
+        
+        <p>Sa bogatih polja, vrijedni farmeri Hrvatske i cijelog svijeta, sa velikim trudom i odgovornošću, skupljaju plodove kako bi našim korisnicima ponudili najbolje iz prirode</p>
+        <p>Samo probrani listovi i plodovi čine naš proizvod vrhunski kvalitetnim. </p>
+        
+      </div>
+      </section>
+      
+    <section>
+      <h2>Od srca</h2><hr>
+      <div class="column_left ll">
+          <div class="pro_slikice sli_5"> </div>
+
+
+        </div>
+      <div class="column lr">
+        
+        <p>Osim što držimo visoku kvalitetu proizvodnje i prerade, naše čajeve proizvodimo iz velike ljubavi kako prema prirodi i njenim okusima, tako i prema ljudima i zadovoljstvu naših korisnika.</p>
+      </div>
+     
+    </section>
+    <div class="granica-galerije"></div>
+  </article>
+ 
+  
+
+  <!--_______FOOTER -_DOLJE_-->
+  <article class="peta">
+    <article class="lightings">
+      <section class="one1">
+
+        <section class="two2">
+          <section class="three3">
+            <section class="four4">
+              <section class="five5">
+
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </article>
+  </article>
+  <!--/*FOOTER -GORE-->
+
+ <footer class="fixed_footer">
+
+  <div class="foot_1">
+
+    <p>krbucar@vsite.hr</p>
+    <p>Croatia, Zagreb</p>
+    <p>Projekt za predmet "Oblikovanje Web Stranica"</p>
+  </div>
+  <div class="logo_footera">
+    <img src="_logo.JPG" class="logo" alt="logo">
+  </div>
+
+</footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vocni cajevi</title>
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="src_struktura/stil_struktura.css">
+ 
+  <link rel="stylesheet" href="src_proizvodi/body_proizvodi.css">
+
+  <script src="src_struktura/jquery-3.4.1.js"></script>
+
+
+</head>
+
+<body>
+
+  <nav>
+    <div>
+      <a href="Pocetna.html"><img src="_logo.JPG" class="logo kut" alt="logo"></a>
+    </div>
+
+    <ul class="menu">
+      <li><a href="Pocetna.html">Doma</a> </li>
+      
+      <ul class="podizbornik">
+        <li><a href="Proizvodi.html" class="aktiv1">Proizvodi</a>
+         <ul class="podizbornik_sadrzi">
+            <li><a href="Biljni.html" >Biljni</a></li>
+            <li><a href="Vocni.html" >Voćni</a></li>
+            <li><a href="Premium.html" >Premium</a></li>
+            <li><a href="Special_edition.html">Special edition</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+            
+      <li><a href="Funkcionalni_cajevi.html">Funkcionalni čajevi</a> </li>
+      
+         <li><a href="O_čaju.html">O čaju</a></li>
+      
+      <li><a href="O_nama.html">O nama</a></li>
+    </ul>
+
+    <div class="toggle">
+      <div class="span" id="one"></div>
+      <div class="span" id="two"></div>
+      <div class="span" id="three"></div>
+    </div>
+
+  </nav>
+
+  <header>
+    <div class="headline proizvodi">
+      <div class="inner">
+        <!--
+<h1>Dobrodošli</h1>
+        <p>Svijet čaja</p> -->
+      </div>
+    </div>
+  </header>
+
+  <div class="resize">
+    <ul class="menu">
+      <li><a href="Pocetna.html">Doma</a> </li>
+      
+     <ul class="podizbornik">
+        <li><a href="Proizvodi.html" class="aktiv1">Proizvodi</a>
+          <ul class="podizbornik_sadrzi">
+            <li><a href="Biljni.html">Biljni</a></li>
+            <li><a href="#">Voćni</a></li>
+            <li><a href="Premium.html" >Premium</a></li>
+            <li><a href="Special_edition.html">Special edition</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+            
+      <li><a href="Funkcionalni_cajevi.html">Funkcionalni čajevi</a> </li>
+      
+         <li><a href="O_čaju.html">O čaju</a></li>
+      
+      <li><a href="O_nama.html">O nama</a></li>
+    </ul>
+
+  </div>
+<!-- za resize-->
+<script>
+    $(document).ready(function() {
+      console.log("ready!");
+      $(".toggle").click(function() {
+
+        $(this).toggleClass('on');
+        $(".resize").toggleClass("active");
+      })
+    })
+
+  </script>
+
+  <!-- *************************************** -->
+  <!-- *************************************** -->
+  
+
+  <!--1._DIO_____PORUKA____DOLJE... ovo može se staviti u prvi dio flip teksta... hmmm....-->
+  
+  
+  <!-- _start_ NOVe LINIJE PROIZVODA-->
+
+    <div class="granica-galerije"></div>
+  <article class="tekst_spec_ed">
+    <section>
+     
+      <p>Sa velikom pažnjom i s puno ljubavi, kako ljudi koji neposredno rade na poljima i nas koji pazimo i čuvamo istinski okus čaja pripravljajući glavne sastojke, na krajnje kvalitetan i brižan način brinemo da Vam ponudimo samo najbolje što priroda daruje.</p>
+      <p>Izaberite vrstu čaja koja Vas najviše zanima i sigurni smo da nećete pogriješiti.</p>
+
+    </section>
+  </article>
+  <!--BOOKMARKS sa PORUKOM  -->
+  <!-- Tu ide Galerija za izbor vrste funkcionalnosti čaja -->
+
+    <section>
+   <div class="tekstic_1">
+      <p>Bogatstvo okusa u jednoj šalici</p>
+    </div>
+  </section>
+  
+  <div id="sekcija-proizvodi">
+    <!-- services-section-->
+    <div class="unutarnji-width">
+      <div class="granica2"></div>
+      <h1>Proizvodi</h1>
+      <div class="granica2"></div>
+      <div class="kontenjer-funkcionalnosti">
+
+        <div class="funkcionalnost-box">
+          <a href="Biljni.html">
+          <div class="funkcionalnost-icon A">
+           
+          </div>
+          
+          <div class="funkcionalnost-title">Biljni čajevi</div>
+            </a>
+          <div class="funkcionalnost-desc">
+            Bogatstvo i moć prirode u jednoj šalici čaja
+          </div>
+        </div>
+
+        <div class="funkcionalnost-box">
+           <a href="Vocni.html">
+          <div class="funkcionalnost-icon B">
+            
+          </div>
+          <div class="funkcionalnost-title">Voćni čajevi</div>
+          </a>
+          <div class="funkcionalnost-desc 3">
+           Čarolija i šarolikost slatkog nektara
+          </div>
+        </div>
+
+
+
+        <div class="funkcionalnost-box">
+
+          <a href="Premium.html">
+            <div class="funkcionalnost-icon C"></div>
+          </a><div class="funkcionalnost-title">Premium čajevi</div></a>
+          <div class="funkcionalnost-desc">
+            Čajevi vrhunske kvalitete i probranih listova bilja i voća </div>
+
+        </div>
+
+        <div class="funkcionalnost-box">
+          <a href="Special_edition.html">
+          <div class="funkcionalnost-icon D">
+            <i class="fas fa-object-ungroup"></i>
+          </div>
+          <div class="funkcionalnost-title">Special edition čajevi</div>
+          </a>
+          <div class="funkcionalnost-desc">
+           Čaj sa karakterom... priča u šalici čaja
+          </div>
+        </div>
+
+
+      </div>
+      <div class="granica3"></div>
+    </div>
+  </div>
+
+    <!-- _END_ NOVA LINIJA PROIZVODA-->
+  
+
+
+
+  <!--_______FOOTER -_DOLJE_-->
+  <article class="peta">
+    <article class="lightings">
+      <section class="one1">
+
+        <section class="two2">
+          <section class="three3">
+            <section class="four4">
+              <section class="five5">
+
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </article>
+  </article>
+  <!--/*FOOTER -GORE-->
+
+<footer class="fixed_footer">
+
+  <div class="foot_1">
+
+    <p>krbucar@vsite.hr</p>
+    <p>Croatia, Zagreb</p>
+    <p>Projekt za predmet "Oblikovanje Web Stranica"</p>
+  </div>
+  <div class="logo_footera">
+    <img src="_logo.JPG" class="logo" alt="logo_podnožje">
+  </div>
+
+</footer>
+
+
+</body>
+
+</html>

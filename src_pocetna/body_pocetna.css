@@ -1,0 +1,835 @@
+/*->->-<-<->->>-->-->-->-->  BODYYYYYYYYYY<--<--<--<--<--*/
+
+/*.....................sadržaj...................*/
+.par1{
+  text-align: center;
+  margin-left: 20px;
+ 
+}
+.slideshow {
+  list-style-type: none;
+}
+
+/** SLIDESHOW **/
+
+.slideshow,
+.slideshow:after { 
+    
+position: relative;
+  width: 100%;
+  height:15%;
+    left: 0px;
+    z-index: 0; 
+  margin-top:40px;
+    
+}
+
+
+.slideshow li span { 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+ 
+    /*background-position: 50% 50%;*/
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 20s linear infinite 0s; 
+}
+.apear-top{
+  position: absolute:
+}
+
+.slideshow li:nth-child(1) span { 
+    background-image: url(crni-caj2.jpg); 
+  
+    
+}
+.slideshow li:nth-child(2) span { 
+    background-image: url("panda_bambus1.jpg");
+    animation-delay: 2.5s; 
+
+}
+.slideshow li:nth-child(3) span { 
+    background-image: url("Bengalac_slika.jpg");
+    animation-delay: 6s; 
+}
+.slideshow li:nth-child(4) span { 
+    background-image: url("Samurai_sli_sli.jpg");   
+    animation-delay: 10s; 
+}
+.slideshow li:nth-child(5) span { 
+    background-image: url("Paleta%20proizvoda.jpg");
+    animation-delay: 14s; 
+}
+.slideshow li:nth-child(6) span { 
+    background-image: url("Paleta_proizvoda_biljni.jpg");
+    animation-delay: 16s; 
+}
+
+
+
+@keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    8% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+
+@keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+
+.no-cssanimations .cb-slideshow li span {
+	opacity: 1;
+}
+
+/*__________FLIP_text -__ START ---__*/
+h2 {
+ font-family:Engravers MT;
+  color:red;
+  text-shadow: 2.5px 1.5px 40.5px #FD5FF6;
+  max-width:90%;/*100*/
+ 
+  
+  text-transform: uppercase;
+  text-align:center;
+  margin:0 auto;
+  color: #ddd;
+  line-height: 40px;
+  letter-spacing: 10px
+  
+}
+#flip_tekst{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:sans-serif;
+  background: #b44441;
+  background-image: linear-gradient(to right bottom, #1f1d1f, #321e2c, #491c32, #611531, #770829, #780422, #78011b, #780014, #670013, #560112, #46010e, #360208);
+}
+
+#flip_tekst p {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 5px;;
+  color: #0D0304;
+}
+#flip_tekst p.desc {
+  padding: 1px;
+  font-size: 20px;
+  color:#070927;
+  font-weight:bolder;
+  letter-spacing: 7px;
+  opacity: 0;
+  transition: 2s 1.5s;
+  text-shadow: 1px 1.2px 2.4px #FFA3AD;
+}
+
+@media screen and (max-width: 450px) {
+  #flip_tekst p {
+    font-size: 10px;
+  }
+  #flip_tekst p.desc {
+    font-size: 5px;
+  }
+}
+
+.ex1 {
+  opacity: 0;
+  perspective: 200px;
+  text-shadow: 1px 2.2px 20.4px #FFA3AD;
+}
+.ex1 span {
+  transform: rotateY(-90deg);
+  opacity: 0;
+}
+
+.ex2 {
+  opacity: 0;
+  perspective: 200px;
+ text-shadow: 1px 2.2px 2.4px #FFA3AD;
+
+  
+}
+
+.ex2 span {
+  transform: rotateY(-90deg) rotateX(45deg);
+  transform-origin: -50% 75%;
+  opacity: 0;
+}
+/*__________FLIP_text -__ END ---__*/
+
+/*START_____Jslider**/
+
+/*END_________slider*/
+/*----------------------------------------------------*/
+
+/*START____uvodna poruka_HEADER__*/
+.headline {
+  background: #111;
+  background-image: url();
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image:url(%C5%BDumberak_pogled1.jpg);
+}
+.tekstic_1 p {
+  width:100%;
+  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color:darkgoldenrod;
+  text-align: center;
+  font-size: 30px;
+  font-family: Viner Hand ITC;
+  line-height: 60px;
+text-shadow: 1px 1.2px 28.4px #7089ad;
+}
+
+
+
+/*END------------- poruka___*/
+
+/*--START--FULL LANDING poruka*/
+#landing-page1{
+  width: 90%;
+  height: 100px;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+  margin:auto;
+  float:none;
+}
+
+#landing-page1::after{
+  content: "";
+  position: absolute;
+  
+  width: 90%;
+  height: 100%;
+  background: url(100posto.jpg) no-repeat;
+ 
+  background-clip:padding-box;
+  background-position: center;
+  opacity: .8;
+  animation: anim 20s linear infinite;
+}
+#poruka_slika p{
+ 
+  font-family:fantasy;
+  font-size: 20px;
+
+  
+}
+#landing-page2{
+  width: 70%;
+  height: 200px;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+  margin:auto;
+  /*float:left*/
+}
+#landing-page2::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(planina1.jpg) no-repeat;
+  background-size:cover;
+  opacity: .8;
+  animation: anim 25s linear infinite;
+}
+@keyframes anim {
+  50%{
+    transform: scale(2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.page-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  padding: 0 40px;
+  box-sizing: border-box;
+  
+
+  padding: 5px 10px;
+  
+  
+}
+.page-content h2{
+  color:darkred;
+  line-height: 30px;
+  text-shadow: 2.5px 1.5px 1.5px black;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.page-content p{
+  color: #fff;
+  font-family: serif;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.text{
+  padding: 12px;
+  text-align: justify;
+}
+.text div{
+  margin-bottom: 16px;
+}
+
+
+/*--END--FULL LANDING poruka*/
+/*-------------------KOLUMNE------------------*/
+
+.column_left {
+  float: left;
+  margin-top:20px;
+  
+  /*padding:10px;*/
+  /*height: 500px;*/
+}
+
+.column_left.ll {
+  width: 55%;
+ 
+}
+
+.column_left.lr {
+  width:55%;
+   
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column_right {
+  float: right;
+ margin-top:20px;
+}
+
+.column_right.rl {
+  width: 45%;
+  
+}
+
+.column_right.rr {
+  width: 55%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and(max-width:600px) {
+  .column_right {
+    width: 100%;
+  }
+}
+
+
+/*---------------SLIKE--------------------------*/
+.pro_slikice {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 100px;
+  width: 100%;
+  max-width: 90%;
+ 
+}
+.red_premium{
+  
+   border: 1px solid #eebb55;
+    border-radius: 7px;
+ 
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /*grid-template-rows: repeat(2, 30vw);*/
+  grid-gap: 15px;
+  width:100%;
+  
+ 
+}
+
+
+.pro_prez{
+  opacity:.8;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 90%;
+  height: 280px;
+  border-radius: 15px;
+  
+}
+.pro_prez:hover{
+  opacity: 1.0;
+  cursor: pointer;
+}
+
+.pro_prez.aromatico{
+  background-image: url(@Aromatico_pro%C4%8Delje.jpg);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border-radius:100% 0% 100% 0% / 38% 52% 48% 62%;
+}
+.pro_prez.aromatico:hover{
+  transition: all 0.5s ease-in-out; 
+  
+  box-shadow: 1px 3px 9px 10px rgba(255,67,67,0.48);
+  border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+
+}
+
+.pro_prez.igla{
+  background-image: url(@Bijela%20igla_pro%C4%8Delje.jpg);
+ grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  border-radius:100% 0% 100% 0% / 38% 52% 48% 62%;
+}
+.pro_prez.igla:hover{
+  transition: all 0.5s ease-in-out; 
+  
+  box-shadow: 1px 3px 9px 10px rgba(255,67,67,0.48);
+  border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+
+}
+.pro_prez.queen{
+  background-image: url(@BQ_lkutija_pro%C4%8Delje.jpg);
+   grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  border-radius:100% 0% 100% 0% / 38% 52% 48% 62%;
+}
+.pro_prez.queen:hover{
+transition: all 0.5s ease-in-out; 
+  
+  box-shadow: 1px 3px 9px 10px rgba(255,67,67,0.48);
+  border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+}
+.pro_prez.rapsodija{
+  background-image: url(@Crvena_rapsodija_pro%C4%8Delje.jpg);
+  grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  border-radius:100% 0% 100% 0% / 38% 52% 48% 62%;
+}
+.pro_prez.rapsodija:hover{
+  transition: all 0.5s ease-in-out; 
+  
+  box-shadow: 1px 3px 9px 10px rgba(255,67,67,0.48);
+  border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+
+}
+.pro_prez.thrive{
+  background-image: url(@Garden_thrive_pro%C4%8Delje_kutija.jpg);
+   grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  border-radius:100% 0% 100% 0% / 38% 52% 48% 62%;
+}
+.pro_prez.thrive:hover{
+  transition: all 0.5s ease-in-out; 
+  
+  box-shadow: 1px 3px 9px 10px rgba(255,67,67,0.48);
+  border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+
+}
+.pro_prez.rosa{
+  background-image: url(@Jutarnja_rosa__pro%C4%8Delje.jpg);
+  grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  border-radius:100% 0% 100% 0% / 38% 52% 48% 62%;
+}
+.pro_prez.rosa:hover{
+  transition: all 0.5s ease-in-out; 
+  
+  box-shadow: 1px 3px 9px 10px rgba(255,67,67,0.48);
+  border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+
+}
+.pro_prez.rosaline{
+  background-image: url(@Rosaline_pro%C4%8Delje.jpg);
+  grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  border-radius:100% 0% 100% 0% / 38% 52% 48% 62%;
+}
+.pro_prez.rosaline:hover{
+ transition: all 0.5s ease-in-out; 
+  
+  box-shadow: 1px 3px 9px 10px rgba(255,67,67,0.48);
+  border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+
+}
+.pro_prez.tropico{
+  background-image: url(@Tropico_pro%C4%8Delje.jpg);
+  grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  border-radius:100% 0% 100% 0% / 38% 52% 48% 62%;
+}
+.pro_prez.tropico:hover{
+  transition: all 0.5s ease-in-out; 
+  
+  box-shadow: 1px 3px 9px 10px rgba(255,67,67,0.48);
+  border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+
+}
+
+
+.pro_slikice.sli_3
+{
+  background-image:url(funkcionalni_cajevi1.jpg);
+  min-height: 350px;
+  width:350px;
+  background-size: cover;
+  border-radius: 5%;
+  border-radius:100% 0% 100% 0% / 38% 52% 48% 62%;
+}
+.pro_slikice.sli_3:hover
+{
+ 
+  transition: all 0.5s ease-in-out; 
+  
+  box-shadow: 1px 3px 9px 10px rgba(255,67,67,0.48);
+  border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+}
+  
+  
+
+
+/*----------------------------------------------------*/
+/*MINI-ZBORNIK_ START*/
+/*------ZA special edition_MINI IZBORNIK-----*/
+#art_spec_ed {
+  display: flex;
+  max-width: 90%;
+  justify-content: center;
+  width: 100%;
+
+}
+
+
+
+
+@media screen and (max-width:1560px) {
+ 
+  
+  .okvir_ .aa {
+     max-width: 390px;
+    max-height: 390px;
+
+  }
+
+  .okvir_ .bb {
+    max-width: 380px;
+    max-height: 390px;
+
+  }
+
+  .okvir_ .cc {
+    max-width: 380px;
+    max-height: 390px;
+
+  }
+}
+@media screen and (max-width:1160px) {
+ 
+ #art_spec_ed {
+   width:100%;
+    max-width: 100%;
+  }
+  .okvir_ .aa {
+    max-width: 540px;
+    max-height: 140px;
+
+  }
+
+  .okvir_ .bb {
+    max-width: 140px;
+    max-height: 140px;
+
+  }
+
+  .okvir_ .cc {
+    max-width: 140px;
+    max-height: 140px;
+
+  }
+}
+@media screen and (max-width:1060px) {
+  
+  .spec_edit .picture_proizvoda h2{
+    font-size:65px;
+  }  
+  .spec_edit .picture_proizvoda h3{
+    font-size:40px;
+  } 
+  .spec_edit .picture_proizvoda p{
+    font-size:20px;
+    line-height:24px;
+  }
+.picture_proizvoda .tekstic_1 p
+  {
+    font-size: 35px;
+    line-height:45px;
+  }
+  .okvir_ .aa {
+    max-width: 240px;
+    max-height: 240px;
+
+  }
+
+  .okvir_ .bb {
+    max-width: 240px;
+    max-height: 240px;
+
+  }
+
+  .okvir_ .cc {
+    max-width: 240px;
+    max-height: 240px;
+
+  }
+}
+
+@media screen and (max-width:968px) {
+    
+   
+  .spec_edit .picture_proizvoda h3{
+    font-size:25px;
+  } 
+  
+  .spec_edit .picture_proizvoda p{
+    font-size:20px;
+    line-height:24px;
+  }
+  .spec_edit .picture_proizvoda h2{
+    font-size:40px;
+  }
+  .picture_proizvoda .tekstic_1 p
+  {
+    font-size: 35px;
+    line-height:45px;
+  }
+   
+  .okvir_ {
+    max-width: 100%;
+  }
+
+  .okvir_ .aa {
+    max-width: 140px;
+    max-height: 140px;
+
+  }
+
+  .okvir_ .bb {
+    max-width: 140px;
+    max-height: 140px;
+
+  }
+
+  .okvir_ .cc {
+    max-width: 140px;
+    max-height: 140px;
+
+  }
+}
+@media screen and (max-width:868px) {
+    
+ 
+  .spec_edit .picture_proizvoda h3{
+    font-size:25px;
+  } 
+  .spec_edit .picture_proizvoda p{
+    font-size:10px;
+    line-height:20px;
+  }
+  .spec_edit .picture_proizvoda h2{
+    font-size:50px;
+  }
+   .picture_proizvoda .tekstic_1 p
+  {
+    font-size: 35px;
+    line-height:45px;
+  }
+  .okvir_ {
+    max-width: 100%;
+  }
+
+  .okvir_ .aa {
+    max-width: 540px;
+    max-height: 140px;
+
+  }
+
+  .okvir_ .bb {
+    max-width: 140px;
+    max-height: 140px;
+
+  }
+
+  .okvir_ .cc {
+    max-width: 140px;
+    max-height: 140px;
+
+  }
+}
+@media screen and (max-width:768px) { /*90%*/
+  #art_spec_ed{
+    display:grid;
+    padding:0;
+    margin:0;
+   
+  }
+  .spec_edit .picture_proizvoda h2{
+    font-size:55px;
+  }  
+  .spec_edit .picture_proizvoda h3{
+    font-size:40px;
+    
+    
+  } 
+  .spec_edit .picture_proizvoda p{
+    font-size:14px;
+    line-height:20px;
+  }
+  .picture_proizvoda .tekstic_1 p
+  {
+    font-size: 25px;
+    line-height:35px;
+  }
+}
+
+  .okvir_ {
+    position:relative;
+    display: inline-flex;
+    
+  }
+.okvir:hover{
+  
+}
+
+  .okvir_ .aa {
+    max-width: 150px;
+    max-height:150px;
+    
+  }
+
+  .okvir_ .bb {
+   max-width: 150px;
+    max-height:150px;
+
+  }
+
+  .okvir_ .cc {
+    max-width: 150px;
+    max-height:150px;
+
+  }
+}
+
+
+/*kraj responzivnosti _______-special*/
+
+.okvir_ {
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.okvir_ .-icon {
+
+  display: inline-block;
+  width: 280px;
+  height: 280px;
+  border: 3px solid #82ccdd;
+  color: #82ccdd;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.5s linear;
+
+}
+.okvir_:hover .-icon{
+  opacity: .7;
+  color: #ddd;
+  border-color: #8f2430;
+  box-shadow: 0px 0px 34px 11px #8f2430;
+ 
+}
+
+.okvir_ .-icon.aa {
+
+  background-image: url(mini_izbornik/mini_IND_ORIG_bak.jpg);
+  background-position: center;
+
+}
+
+
+.okvir_ .-icon.bb {
+  background-image: url(mini_izbornik/mini_FarEast_bak.jpg);
+  background-position: center;
+}
+
+.okvir_ .-icon.cc {
+  background-image: url(mini_izbornik/mini_CHI_bak_bak.jpg);
+  background-position: center;
+}
+
+/*MINI-ZBORNIK_ END*/
+
+
+
+
+/*----------------------------------------------------*/

@@ -1,0 +1,1107 @@
+/*___  START ___ galerija_______proizvoda*/
+.bilje_voce h2 {
+ font-family:Engravers MT;
+  color:red;
+  text-shadow: 2.5px 1.5px 40.5px #FD5FF6;
+  max-width:90%;/*100*/
+ 
+  
+  text-transform: uppercase;
+  text-align:center;
+  margin:0 auto;
+  color: #ddd;
+  line-height: 40px;
+  letter-spacing: 10px
+  
+}
+.premiuum h2{
+   font-family: Engravers MT;
+  font-size: 30px;
+  max-width: 90%;
+   color: #ddd;
+  /*color:red; ne*/
+  text-shadow: 2.5px 1.5px 40.5px #FD5FF6;
+    
+  text-align: center;
+  line-height: 25px;
+ margin-top:20px;
+  margin-bottom:20px;
+  text-transform: uppercase;
+  letter-spacing: 10px;/*10*/
+}
+.povratak{
+  float:right;
+  font-style: italic;
+  font-weight: 600;
+  background:#413A59;
+  border-radius: 25px;
+  color:#02003B;
+  font-size: 25px;
+ 
+  
+}
+.povratak:hover{
+  box-shadow: 0px 0px 94px 21px #8f2430;
+  
+}
+
+
+.headline {
+  background: #111;
+ 
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+
+}
+.headline.proizvodi{
+   background-image: url(%C4%8Daj_%C4%8Deka.jpg);
+}
+.headline.biljni{
+   background-image: url(slike_biljni/biljni_naslovnica1.jpg);
+ }
+.headline.vocni{
+   background-image: url(slike_vocni/back_linija_voce.jpg);
+ }
+.headline.premium{
+   background-image: url(slike_premium/premium_naslovnica.jpg);
+ }
+.headline.speciall{
+   background-image: url(slike_spec_edition/naslov_s_e_a.jpg);
+ }
+.tekstic_1 p {
+  width:100%;
+  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color:darkgoldenrod;
+  text-align: center;
+  font-size: 40px;
+  font-family: Viner Hand ITC;
+  line-height: 60px;
+text-shadow: 1px 1.2px 28.4px #7089ad;
+}
+
+
+#sekcija-proizvodi {
+  background-image: linear-gradient(to right bottom, #5e0acb, #4c22b4, #3e2a9d, #362d84, #312e6a, #4c3567, #5d3e66, #6a4965, #976274, #be807e, #dda489, #f2cc9a);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+
+  width: 100%;
+  margin: 5px auto;
+
+  max-width: 100%;
+  border-style: double;
+
+
+}
+
+.unutarnji-width {
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+#sekcija-proizvodi h1 {
+  font-family: Engravers MT;
+  font-size: 60px;
+  max-width: 70%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ddd;
+  letter-spacing: 8px;
+}
+
+.funkcionalnost-box .funkcionalnost-title {
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 40px;
+
+  margin-bottom: 10px;
+}
+
+.kontenjer-funkcionalnosti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+.funkcionalnost-box {
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+
+}
+
+
+.funkcionalnost-box .funkcionalnost-icon {
+
+  display:inline-block;
+  /*inline*/
+  width: 200px;
+  height: 200px;
+  border: 3px solid royalblue;
+ 
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  transition: 0.5s linear;
+
+
+}
+
+.funkcionalnost-box .funkcionalnost-icon.A {
+  background-image: url(mini_izbornik/A_biljni_procelje.jpg);
+  background-position: center;
+}
+
+.funkcionalnost-box .funkcionalnost-icon.B {
+  background-image: url(mini_izbornik/B_vocni_procelje.jpg);
+  background-position: center;
+}
+
+.funkcionalnost-box .funkcionalnost-icon.C {
+  background-image: url(mini_izbornik/c_premium.jpg);
+  background-position: center;
+}
+
+.funkcionalnost-box .funkcionalnost-icon.D {
+  background-image: url(mini_izbornik/d_spec_edit.jpg);
+  background-position: center;
+}
+
+.funkcionalnost-box:hover .funkcionalnost-icon {
+  opacity: .5;
+  color: #ddd;
+  
+  transition: all 0.5s ease-in-out; 
+  box-shadow: 0px 0px 9px 15px #C61010;
+ 
+}
+
+
+.funkcionalnost-box .funkcionalnost-desc {
+  font-size: 34px;
+  font-style: italic;
+}
+
+/*     -->*/
+.tekst_spec_ed {
+  clear: both;
+  /* clear: both; */
+  margin:0 auto;
+  margin-top:30px;
+  margin-bottom:30px;
+  border-style:double;
+  border-color: brown;
+  max-width:90%;
+ border-width: 10px;
+ 
+}
+.tekst_spec_ed section p {
+      /* clear: both; */ 
+    text-align:center;
+    font-size: 20px;
+  font-family: BookmanOld Style;
+  line-height: 30px;
+  
+  color:#e6c081;
+}
+
+
+@media screen and (max-width:1360px) /*67*/
+{
+  .tekst_spec_ed{
+    
+    width:70%;
+    max-width:90%
+  }
+ 
+  #sekcija-proizvodi{
+    width:100%;
+    height: auto;
+    border: none;
+    margin: 0 auto;
+    border-radius: 0;
+    position: relative;
+    max-width:90%;
+  }
+  
+   #sekcija-proizvodi h1{
+     
+    font-size: 1.5rem;
+     
+  }
+  #sekcija-proizvodi .funkcionalnost-desc{
+     
+    font-size: .7rem;
+     
+  }
+   #sekcija-proizvodi .funkcionalnost-title{
+     
+    font-size: 1.0rem;
+     
+  }
+  .funkcionalnost-box .funkcionalnost-icon.A{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.B{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.C{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.D{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+  }
+  }
+
+
+
+@media screen and (max-width:1060px) 
+{ 
+  .tekst_spec_ed{
+   
+    width:70%;
+    max-width:90%
+  }
+ 
+  #sekcija-proizvodi{
+    width:100%;
+    height: auto;
+     border: none;
+    margin: 0 auto;
+    border-radius: 0;
+    position: relative;
+    display:grid;
+  }
+  
+   #sekcija-proizvodi h1{
+     float:none;
+    font-size: 35px;
+     
+  }
+  #sekcija-proizvodi .funkcionalnost-desc{
+     float:none;
+    font-size: 20px;
+     
+  }
+   #sekcija-proizvodi .funkcionalnost-title{
+     float:none;
+    font-size: 25px;
+     
+  }
+  
+  
+  .funkcionalnost-box .funkcionalnost-icon.A{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.B{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.C{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.D{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0;
+  }
+  }
+
+@media screen and (max-width:1400px) {
+  article.tekst_spec_ed{
+    
+    width:100%;
+    max-width:90%
+    
+  }
+ 
+  
+  .funkcionalnost-box {
+    width:400px;
+    margin:0
+  }
+  .kontenjer-funkcionalnosti{
+    position:relative;
+    
+  }
+  #sekcija-proizvodi{
+    width:100%;
+    height: auto;
+     border: none;
+    margin: 0 auto;
+    border-radius: 0;
+    position: relative;
+    display:grid;
+  }
+  
+   #sekcija-proizvodi h1{
+     float:none;
+    font-size: 35px;
+     
+  }
+  #sekcija-proizvodi .funkcionalnost-desc{
+     float:none;
+    font-size: 20px;
+     
+  }
+   #sekcija-proizvodi .funkcionalnost-title{
+     float:none;
+    font-size: 25px;
+     
+  }
+  
+  .funkcionalnost-box .funkcionalnost-icon.A{
+     max-width: 170px;
+    max-height: 170px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.B{
+    max-width: 170px;
+    max-height: 170px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.C{
+     max-width: 170px;
+    max-height: 170px;
+    
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.D{
+    max-width: 170px;
+    max-height: 170px;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width:960px) {/*75%*/
+  .tekst_spec_ed{
+    
+    width:100%;
+    max-width:90%
+    
+  }
+  .tekst_spec_ed p{
+    font-size: 25px;
+        
+  }
+  
+  .funkcionalnost-box {
+    width:400px;
+    margin:0
+  }
+  .kontenjer-funkcionalnosti{
+    position:relative;
+    
+  }
+  #sekcija-proizvodi{
+    width:100%;
+    height: auto;
+     border: none;
+    margin: 0 auto;
+    border-radius: 0;
+    position: relative;
+    display:grid;
+  }
+  
+   #sekcija-proizvodi h1{
+     float:none;
+    font-size: 35px;
+     
+  }
+  #sekcija-proizvodi .funkcionalnost-desc{
+     float:none;
+    font-size: 20px;
+     
+  }
+   #sekcija-proizvodi .funkcionalnost-title{
+     float:none;
+    font-size: 25px;
+     
+  }
+  
+  .funkcionalnost-box .funkcionalnost-icon.A{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.B{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.C{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.D{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width:713px) {
+  .tekst_spec_ed{
+    
+    width:100%;
+    max-width:90%
+  }
+  .tekst_spec_ed p{
+    font-size: 15px;
+        
+  }
+  #sekcija-proizvodi{
+    width:100%;
+    height: auto;
+     border: none;
+    margin: 0 auto;
+    border-radius: 0;
+    position: relative;
+    display:grid;
+  }
+  
+   #sekcija-proizvodi h1{
+     float:none;
+    font-size: 25px;
+     
+  }
+  #sekcija-proizvodi .funkcionalnost-desc{
+     float:none;
+    font-size:15px;
+     
+  }
+   #sekcija-proizvodi .funkcionalnost-title{
+     float:none;
+    font-size: 20px;
+     
+  }
+  .funkcionalnost-box {
+    width:100%;
+    max-width: 75%;
+    position:relative;
+    
+  }
+  .unutarnji-width{
+    width:80%;
+    max-width: 900%;
+   
+  }/*nezz...vidi*/
+ 
+  
+  .funkcionalnost-box .funkcionalnost-icon.A{
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.B{
+     max-width: 80px;
+    max-height: 80px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.C{
+   max-width: 80px;
+    max-height: 80px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.D{
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0;
+  }
+}
+
+
+@media screen and (max-width:560px) { 
+  .tekst_spec_ed{
+        width:100%;
+    max-width:90%;
+    height:200px;
+    max-height:90%;
+    
+    overflow: hidden;
+  }
+  .tekst_spec_ed p{
+    font-size: 15px;
+ 
+      
+  }
+#sekcija-proizvodi{
+    width:100%;
+    height: auto;
+     border: none;
+    margin: 0 auto;
+    border-radius: 0;
+    position: relative;
+    display:grid;
+  }
+  
+   #sekcija-proizvodi h1{
+     float:none;
+    font-size: 25px;
+     
+  }
+  #sekcija-proizvodi .funkcionalnost-desc{
+     float:none;
+    font-size: 15px;
+     
+  }
+   #sekcija-proizvodi .funkcionalnost-title{
+     float:none;
+    font-size: 20px;
+     
+  }
+  
+ .funkcionalnost-box {
+    width:100%;
+    max-width: 90%;
+    position:relative;
+       
+  }
+  .funkcionalnost-box .funkcionalnost-icon.A{
+        max-width: 90px;
+    max-height: 90px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.B{
+       max-width: 90px;
+    max-height: 90px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.C{
+       max-width: 90px;
+    max-height: 90px;
+    margin: 0;
+  }
+  .funkcionalnost-box .funkcionalnost-icon.D{
+        max-width: 90px;
+    max-height: 90px;
+    margin: 0;
+  }
+}
+
+
+/*------ VRIJEDI ZA SVE PROIZVODE------*/
+
+article {
+  margin-top: 60px;
+}
+
+
+   
+
+
+
+
+/*pogledati dobro*/
+
+/*tekst special editiona kao uvod ....*/
+
+
+.granica-galerije {
+  float:none;
+  clear:both;
+  width: 160px;
+  height: 6px;
+  background: darkred;
+  margin: 40px auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+
+
+
+/**/
+.granica2 {
+  width: 160px;
+  height: 3px;
+  background: #82ccdd;
+  margin: 40px auto;
+}
+
+.granica3 {
+  width: 1060px;
+  height: 3px;
+  background: #82ccdd;
+  margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+/*Za proizvode i galerije*/
+/*DOLJE____ za kolumne */
+.column_centar{
+  clear: both;
+  float:none;
+  margin-bottom: 20px;
+}
+
+.column_centar {
+ text-align: justify;
+  
+}
+.column_centar.jen{
+  width:100%;
+}
+.column_centar.dve{
+  width:100%;
+}
+.column_left {
+  float: left;
+  margin-top:20px;
+  
+  /*padding:10px;*/
+  /*height: 500px;*/
+}
+
+.column_left.ll {
+  width: 55%;
+ 
+}
+
+.column_left.lr {
+  width:55%;
+   
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column_right {
+  float: right;
+ margin-top:20px;
+}
+
+.column_right.rl {
+  width: 45%;
+  
+}
+
+.column_right.rr {
+  width: 55%;
+ 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and(max-width:600px) {
+  .column_right {
+    width: 100%;
+  }
+}
+
+
+
+/*GORE____ za kolumne */
+.picture_proizvoda {
+  width: 90%;
+}
+
+.pro_slikice {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 300px;
+  width: 100%;
+  max-width: 90%;
+ 
+  
+  
+ 
+}
+hr {
+  margin: 25px 0;
+}
+/*----------------------------------------------------*/
+/*_____OVDJE JE DEFINIRANO ZA SVAKI PROIZVOD ZASEBNOOOOOOOO______*/
+
+/* ______ START __________biljni______________*/
+
+
+
+
+/*lista biljnih*/
+
+
+.pro_slikice.crni {
+  background-image: url("slike_biljni/@Crni.jpg");
+
+}
+
+.pro_slikice.crni_suncokret {
+  background-image: url(slike_biljni/@Crni+Suncokret_1.jpg);
+}
+
+.pro_slikice.dumbir_cim_lim {
+  background-image: url(slike_biljni/@%C4%90umbir+cimet+limun_3.jpg);
+}
+
+
+.pro_slikice.dumbir_limun {
+  background-image: url(slike_biljni/@%C4%90umbir+limun_1.jpg);
+}
+
+.pro_slikice.hibiskus {
+  background-image: url(slike_biljni/@hibiskus_1.jpg);
+}
+
+.pro_slikice.jasmin {
+  background-image: url(slike_biljni/@Jasmin_3.jpg);
+}
+
+.pro_slikice.crni_jasmin {
+  background-image: url("slike_biljni/@Crni+Jasmin_2.jpg");
+
+}
+
+.pro_slikice.crni_naranča {
+  background-image: url(slike_biljni/@Crni+Naran%C4%8Da_3.jpg);
+}
+
+.pro_slikice.kamilica {
+  background-image: url(slike_biljni/@kamilica_2.jpg);
+}
+
+.pro_slikice.kamilica_suncokret {
+  background-image: url(slike_biljni/@Kamilica+suncokret_1.jpg);
+}
+
+.pro_slikice.komorac {
+  background-image: url(slike_biljni/@Komora%C4%8D_3.jpg);
+}
+
+.pro_slikice.menta {
+  background-image: url(slike_biljni/@menat_2.jpg);
+}
+
+.pro_slikice.rooibos {
+  background-image: url(slike_biljni/@Roibos_1.jpg);
+}
+
+.pro_slikice.rooibos_vanilija {
+  background-image: url(slike_biljni/@Rooibos+Vanilija_2.jpg);
+}
+
+.pro_slikice.zeleni {
+  background-image: url(slike_biljni/@Zeleni_3.jpg);
+}
+
+.pro_slikice.zeleni_lavanda {
+  background-image: url(slike_biljni/@Zeleni+lavanda_2.jpg);
+}
+
+/*vocni lista*/
+
+.pro_slikice.aronija {
+  background-image: url(slike_vocni/@Aronija_1.jpg);
+}
+
+.pro_slikice.aronija_bazga {
+  background-image: url(slike_vocni/@Aronija+bazga_1.jpg);
+}
+
+.pro_slikice.aronija_malina {
+  background-image: url(slike_vocni/@Aronija+malina_1.jpg);
+}
+
+.pro_slikice.brusnica {
+  background-image: url(slike_vocni/@Brusnica_2.jpg);
+}
+
+.pro_slikice.dumbir_naranca {
+  background-image: url(slike_vocni/@%C4%90umbir+naran%C4%8Da_2.jpg);
+}
+
+.pro_slikice.aronija {
+  background-image: url(slike_vocni/@Aronija_1.jpg);
+}
+
+.pro_slikice.jabuka_cimet {
+  background-image: url(slike_vocni/@JAbuka+cimet_2.jpg);
+}
+
+.pro_slikice.jagoda_vanilija {
+  background-image: url(slike_vocni/@Jagoda+vanilija_1.jpg);
+}
+
+.pro_slikice.sipak {
+  background-image: url(slike_vocni/@%C5%A0ipak_3.jpg);
+}
+
+.pro_slikice.sumsko {
+  background-image: url(slike_vocni/@%C5%A0umsko%20vo%C4%87e_2.jpg);
+}
+
+/*premium lista*/
+.pro_slikice.aromatika_kutija {
+  background-image: url(slike_premium/@Aromatico_kutija_1.jpg);
+   background-size: cover;
+   border-radius: 15px;
+ }
+.pro_slikice.aromatika_sastav {
+  background-image: url(slike_premium/aromatico_sastav.jpg);
+   background-size: 400px;
+ 
+ }
+.pro_slikice.igla_kutija {
+  background-image: url(slike_premium/@Bijela%20igla_1.jpg);
+   background-size: cover;
+   border-radius: 15px;
+
+}
+.pro_slikice.igla_sastav {
+  background-image: url(slike_premium/bijeli_sastav.jpg);
+   background-size: 400px;
+  width:100%;
+
+}
+
+.pro_slikice.queen_kutija {
+  background-image: url(slike_premium/@BQ_2.jpg);
+   background-size: cover;
+   border-radius: 15px;
+
+}
+.pro_slikice.queen_sastav {
+  background-image: url(slike_premium/bq_sastav.jpg);
+   background-size: 400px;
+  
+
+}
+
+.pro_slikice.rapsodija_kutija {
+  background-image: url(slike_premium/@Crvena_rapsodija_1.jpg);
+   background-size: cover;
+   border-radius: 15px;
+
+}
+.pro_slikice.rapsodija_sastav {
+  background-image: url(slike_premium/crvena%20rapsodija_sastav.jpg);
+   background-size: 400px;
+  
+
+}
+
+.pro_slikice.thrive_kutija {
+  background-image: url(slike_premium/@Garden%20Thrive_2.jpg);
+   background-size: cover;
+   border-radius: 15px;
+}
+.pro_slikice.thrive_sastav {
+  background-image: url(slike_premium/garden_thrive_sastav.jpg);
+  background-size: 400px;
+ 
+}
+.pro_slikice.rosa_kutija {
+  background-image: url(slike_premium/@Jutarnja_rosa_1.jpg);
+   background-size: cover;
+   border-radius: 15px;
+}
+.pro_slikice.rosa_sastav {
+  background-image: url(slike_premium/jutarnja_rosa_sastav.jpg);
+   background-size: 350px;
+  width:70%;
+}
+.pro_slikice.rosaline_kutija {
+  background-image: url(slike_premium/@Rosaline_2.jpg);
+   background-size: cover;
+   border-radius: 15px;
+}
+.pro_slikice.rosaline_sastav {
+  background-image: url(slike_premium/rosaline_sastav.jpg);
+   background-size: 350px;
+  width:70%;
+
+}
+.pro_slikice.tropico_kutija {
+  background-image: url(slike_premium/@Tropico_2.jpg);
+  background-size: cover;
+   border-radius: 15px;
+}
+.pro_slikice.tropico_sastav {
+  background-image: url(slike_premium/tropico_sastav.jpg);
+   background-size: 350px;
+  width:70%;
+
+}
+
+
+
+
+
+
+/* ----------------------*/
+/*OBRADA _DOLJE_ slika i glaerije*/
+
+
+/*.spec_edit h2 {
+  font-size: 50px;
+ 
+  color:red;
+  text-shadow: 3px 3px 1px #8a4f49;
+  font-weight: 800;
+  text-align: center;
+  line-height: 80px;
+  max-width: 90%;
+  font-family: Engravers MT;
+  height: 90px;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  margin-bottom: 80px;
+}*/
+.spec_edit h2 {
+  font-family: Engravers MT;
+  font-size: 50px;
+  max-width: 90%;
+   color: #ddd;
+  /*color:red; ne*/
+  text-shadow: 2.5px 1.5px 40.5px #FD5FF6;
+  /*text-shadow: 1.5px 1px 1px #8a4f49;*/
+  
+  text-align: center;
+  line-height: 42px;
+ 
+  text-transform: uppercase;
+  letter-spacing: 10px;/*10*/
+  
+}
+
+.picture_proizvoda h3 {
+  margin-top:30px;
+  font-size: 30px;
+  color:royalblue;/*#3e4772;*/
+  text-shadow: 1px 5px 10px #250107;
+  font-weight: 600;
+  font-family:serif;
+  height: 70px;
+
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 20px;
+}
+
+
+/*lista special edition_INDI*/
+
+.pro_slikice.indi {
+  background-image: url(slike_spec_edition/@Indi_1.jpg);
+  background-size: cover; 
+  border-radius: 15px;
+}
+
+.pro_slikice.indi_karta {
+  background-image: url(slike_spec_edition/karta_indije.jpg);
+  background-size:400px;
+}
+
+.pro_slikice.indi_berba {
+  background-image: url(slike_spec_edition/berba_caja.jpg);
+}
+
+.pro_slikice.benga_tigar {
+  background-image: url(slike_spec_edition/@Bengalski_tigar_1.jpg);
+  background-size: cover; 
+  border-radius: 15px;
+}
+
+.pro_slikice.benga_sastav {
+  background-image: url(slike_spec_edition/bengalski_sastav.jpg);
+
+}
+
+.pro_slikice.benga_profil {
+  background-image: url(slike_spec_edition/bengalsi_tigar.jpg);
+   background-size: 300px;
+}
+.pro_slikice.jap_samurai_kutija {
+  background-image: url(slike_spec_edition/@Samurai_3.jpg);
+   background-size: cover; 
+  border-radius: 15px;
+}
+
+
+.pro_slikice.jap_samurai_sastav {
+  background-image: url(slike_spec_edition/Japanska_prica1.jpg);
+  background-size: 350px; 
+}
+.pro_slikice.jap_samurai_strip {
+  background-image: url(slike_spec_edition/samuraj_fight.jpg);
+  
+}
+
+.pro_slikice.jap_geisha_kutija {
+  background-image: url(slike_spec_edition/@Geisga_3.jpg);
+   background-size: cover; 
+  border-radius: 15px;
+}
+.pro_slikice.jap_geisha_sastav {
+  background-image: url(slike_spec_edition/geisha_prica.jpg);
+   
+}
+.pro_slikice.jap_geisha_matcha {
+  background-image: url(slike_spec_edition/Matcha.jpg);
+   
+}
+
+.pro_slikice.chi_kutija {
+  background-image: url(slike_spec_edition/@Carev_%C4%8Daj_1.jpg);
+   background-size: cover; 
+  border-radius: 15px;
+}
+.pro_slikice.chi_sastav {
+  background-image: url(slike_spec_edition/china_prica.jpg);
+   
+}
+
+
+.pro_slikice.kun-fu_kutija {
+  background-image: url(slike_spec_edition/@KUN_FU_1.jpg);
+   background-size: cover; 
+  border-radius: 15px;
+}
+.pro_slikice.kun-fu_sastav {
+  background-image: url(slike_spec_edition/kung_fu_caj.jpg);
+ 
+}
+
+/* _____END_________________SPECIAL_EDITION________________*/

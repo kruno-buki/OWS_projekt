@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funkcionalni cajevi</title>
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="src_struktura/stil_struktura.css">
+
+  <link rel="stylesheet" href="src_funkcionalni/body_funkcionalni.css">
+
+  <script src="src_struktura/jquery-3.4.1.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <nav>
+    <div>
+      <a href="Pocetna.html"><img src="_logo.JPG" class="logo kut" alt="logo"></a>
+    </div>
+
+    <ul class="menu">
+      <li><a href="Pocetna.html">Doma</a> </li>
+
+      <ul class="podizbornik">
+        <li><a href="Proizvodi.html">Proizvodi</a>
+          <ul class="podizbornik_sadrzi">
+            <li><a href="Biljni.html">Biljni</a></li>
+            <li><a href="Vocni.html">Voćni</a></li>
+            <li><a href="Premium.html">Premium</a></li>
+            <li><a href="Special_edition.html">Special edition</a></li>
+
+          </ul>
+        </li>
+      </ul>
+
+      <li><a href="#" class="aktiv1">Funkcionalni čajevi</a> </li>
+
+       <li><a href="O_čaju.html">O čaju</a></li>
+      
+      <li><a href="O_nama.html">O nama</a></li>
+    </ul>
+
+    <div class="toggle">
+      <div class="span" id="one"></div>
+      <div class="span" id="two"></div>
+      <div class="span" id="three"></div>
+    </div>
+
+  </nav>
+
+  <header>
+    <div class="headline">
+      <div class="inner">
+        
+      </div>
+    </div>
+  </header>
+
+  <div class="resize">
+    <ul class="menu">
+      <li><a href="Pocetna.html">Doma</a> </li>
+
+      <ul class="podizbornik">
+        <li><a href="Proizvodi.html">Proizvodi</a>
+          <ul class="podizbornik_sadrzi">
+            <li><a href="Biljni.html">Biljni</a></li>
+            <li><a href="Vocni.html">Voćni</a></li>
+            <li><a href="Premium.html">Premium</a></li>
+            <li><a href="Special_edition.html">Special edition</a></li>
+
+          </ul>
+        </li>
+      </ul>
+
+      <li><a href="#" class="aktiv1">Funkcionalni čajevi</a> </li>
+
+      <li><a href="O_čaju.html">O čaju</a></li>
+      
+      <li><a href="O_nama.html">O nama</a></li>
+    </ul>
+
+  </div>
+  <!-- za resize-->
+  <script>
+    $(document).ready(function() {
+      console.log("ready!");
+      $(".toggle").click(function() {
+
+        $(this).toggleClass('on');
+        $(".resize").toggleClass("active");
+      })
+    })
+
+  </script>
+
+  <!-- *************************************** -->
+  <!-- *************************************** -->
+  <!--start___SLIKA sa PORUKOM  -->
+   <div class="granica-galerije"></div>
+  <article class="tekst_spec_ed">
+    <section>
+      <p>Čaj nije samo luksuz čiji plodovi dolaze iz daljina do Vaših šalica preko udaljenosti i nekoliko tisuća kilometara. Čaj je i lijek koji će vam pomoći u rješavanju vaših tjelesnih a pogotovo umnih tegoba i stresa.</p>
+      <p>Pod pritiskom posla, obaveza,probavnih smetnji, briga i iščekivanja dopustite sebi jednu šalicu <em>mira</em> ... čaj će odraditi svoje</p>
+
+    </section>
+  </article>
+  <!--BOOKMARKS sa PORUKOM  -->
+  <!-- Tu ide Galerija za izbor vrste funkcionalnosti čaja -->
+
+  <div id="sekcija-funkcionalnosti">
+    <!-- services-section-->
+    <div class="unutarnji-width">
+      <div class="granica2"></div>
+      <h1>Funkcionalni čajevi</h1>
+      <div class="granica2"></div>
+      <div class="kontenjer-funkcionalnosti">
+
+        <div class="funkcionalnost-box">
+          <a href="#ucenje">
+          <div class="funkcionalnost-icon AA">
+          </div>
+          
+          <div class="funkcionalnost-title">UČENJE I KONCENTRACIJA</div>
+            </a>
+          <div class="funkcionalnost-desc">
+            Iscjedite iz čaja prirodnu moć kako bi poboljšali usredotočenost i budnost
+          </div>
+        </div>
+
+        <div class="funkcionalnost-box">
+           <a href="#probava">
+          <div class="funkcionalnost-icon BB">
+           
+          </div>
+          <div class="funkcionalnost-title">PROBAVA</div>
+          </a>
+          <div class="funkcionalnost-desc">
+           Olakšajte želučane smetnje i na prirodan i zdrav način poboljšajte rad vaši crijeva
+          </div>
+        </div>
+
+
+
+        <div class="funkcionalnost-box">
+
+          <a href="#za_smirenje">
+            <div class="funkcionalnost-icon CC"> </div>
+          
+          <div class="funkcionalnost-title">Smirenje</div>
+          </a>
+          <div class="funkcionalnost-desc">
+            Pobjedite stres uz pomoć prirode
+
+          </div>
+
+        </div>
+        
+        <div class="funkcionalnost-box">
+          <a href="#detoks">
+          <div class="funkcionalnost-icon DD"></div>
+          <div class="funkcionalnost-title">Detoksikacija</div>
+          </a>
+          <div class="tekstic_1">
+           Rješite se otrova i poboljšajte Vaše zdravlje
+          </div>
+        </div>
+
+
+      </div>
+      <div class="granica3"></div>
+    </div>
+  </div>
+
+
+
+  <!-- Tu ZAVRŠAVA Galerija za izbor vrste čaja -->
+
+  
+  
+   <article>
+     <section class="funkc_proizvoda" id="ucenje">
+      
+      <h2>Čajevi koji pomažu u učenju i koncentraciji</h2><hr>
+        <div class="pro_slikice ucenje_kutija"> </div>
+
+        <div class="tekstic_1">
+            <p>Oslobodite sposobnost svojeg uma.</p>
+        </div>
+      
+        <div class="column_left ll">
+          
+          <div class="pro_slikice ucenje_sastav"> </div>
+
+        </div>
+      <div class="column lr">
+        
+          <p>U ranim jutarnjim ili sitnim noćnim satima kada trebate poticaj kako bi odradili zadaću koja stoji pred Vama onda preporučujemo napitak toplog čaja  od naših sastojaka koji su na brižni i <em>"pametan"</em> način spravljene. 
+        </p>
+       
+      </div>
+      <div class="column_right rl">
+          <div class="pro_slikice ucenje_mozak"> </div>
+       
+      </div>
+       
+      <div class="column_right rr">
+        
+        <p><em>Ginseg</em> je izrazito cijenjena i zdrava biljka koju smo sakupili sa azijskog područja u Koreji i Kini.</p>
+        <p>Iako su blagodati ginsega mnogobrojne među kojima je i pozitivan utjecaj na imunološki sustav mi smo ga spravili u kombinaciji sa <em>guaranom</em> i <em>zelenim</em> indijskim čajem kako bi dodatno potaknuli Vaše moždane funkcije i omogučili bolje pamćenje. </p>
+         </div>   
+      
+    </section>
+       
+        <div><a class="povratak" href="#sekcija-funkcionalnosti">Povratak</a></div>
+        
+           
+ 
+    <section class="funkc_proizvoda" id="probava">
+      <h2>Čajevi koji poboljšavaju probavu</h2><hr>
+      
+      <div class="pro_slikice probava_kutija"></div>
+     
+      <div class="tekstic_1">
+          <p>Neka vaša crijeva ponovno odrade svoje </p>
+        </div>
+      <div class="column_right rl">
+        <div class="pro_slikice probava_sastav"> </div>
+      </div>
+      <div class="column_right rr">
+        
+        <p>Zbog modernog načina života i nepravilnog uzimanja hrane koja čine Vaš probavni trakt tromim, čineći i vas tromim u svakodnevnim poslovima kada osjećate nelagodu i pojačani stres.</p>
+             
+        <p>"LAX" je mješavina nastala kombinacijom <em>kamilice</em>, <em>paprene metvice</em>,i <em>cvijeta crnog sljeza</em>. Naša mješavina, "LAX", nudi rješenje Vašim umornom probavnom traktu</p>
+        <br>
+         <p>Sastojci i aktivne tvari kamiličinog cvijeta su jako dobro istraženi. Kamilica djeluje antiseptički i protuupalno na sluznicu želuca štiteči ga od nastanka čira. Primjenjuje se kod crijevnih bolesti a ujedno ublažava bolove kod kolika (grčevitih i žestokih bolova u trbuhu) a ujedno i aktivira obrambene sustave kod akutnih i kroničnih infekcija.</p>
+      </div>
+      
+      <div class="column_left ll">
+          <div class="pro_slikice probava_wc"> </div>
+
+        </div>
+      <div class="column lr">
+        <p><em>Paprena metvica</em> je jedna od najpoznatijih i najpopularnijih ljekovitih bilja koja djeluje spazmolitički (smiruju grčenje glatkog mišičja). Paprena metvica potiče izlučivanje žući, istjeruje vjetrove, te kod povećane količine želučane kiseline, grčevitog bola želuca i crijeva.</p>
+        <p><em>Crni sljez</em> djeluje na upale usne šupljine i ždrijela te je prikladan za široku upotrebu. Ublažava sve vrste upala u cjelokupnom probavnom traktu, kako u želucu tako i u crijevima. Ima dobro djelovanje protiv čireva na želucu</p>
+        
+      </div>
+
+    </section>
+      <div><a class="povratak" href="#sekcija-funkcionalnosti">Povratak</a></div>
+     
+     
+     <section class="funkc_proizvoda" id="za_smirenje">
+      
+      <h2>Čajevi koji pomažu i daju unutarnji mir</h2><hr>
+        <div class="pro_slikice smirenje_kutija"> </div>
+
+        <div class="tekstic_1">
+          
+          <p>Umiri svoj duh i tijelo </p>
+        </div>
+      
+        <div class="column_left ll">
+          <div class="pro_slikice smirenje_sastav"> </div>
+
+        </div>
+      <div class="column lr">
+        
+          <p>Užurbani način života, stres, obaveze i napetost na svakom uglu stvara Vam osjećaj da nema izlaza. Vrijeme je da odvojite trenutak...šalicu čaja samo za sebe. Pronađite taj mir u šalici našeg čaja i pustite stvari neka teku.
+        </p>
+       
+      </div>
+      <div class="column_right rl">
+               <div class="pro_slikice smirenje_nedodirljivi"> </div>
+      </div>
+      <div class="column_right rr">
+        
+        <p>"RELAX" je čajna mješavina nastala kombinacijom lavande, rooibosa, kamilice i listova matičnjaka.
+        </p>
+        <p><em>Lavandu</em> su stari Rimljani koristili u mirisnim kupeljima kako bi se što više opustili o svojih svakodnevnih političkih i drugih problema. Jednostavno umirujući i opojan miris ovog čaja će Vas umiriti od svakojakog stresa kako na poslu tako i doma. </p>
+      
+        </div>
+       <div class="column_left ll">
+          <div class="pro_slikice smirenje_samolako"> </div>
+
+        </div>
+      <div class="column lr">
+          <p><em>Matičnjak</em>, ili melisa, kako su je stari Grci zvali, znači pčela. Pčele jako obožavaju ovu biljku a zbog svojih ljekovitih svojstava kao što su antibakterijsko i blago seditivno djelovanje će biti razlog da zavolite ovaj čaj.</p>
+        <br>
+        <p>Ublažite živčanost i migrene, poboljšajte apetit i navucite osmijeh na Vaše lice uz "RELAX" čaj.</p>
+       
+      </div>
+        
+    </section>
+     <div><a class="povratak" href="#sekcija-funkcionalnosti">Povratak</a></div>
+      <!--/*---------------------*/-->
+ 
+    <section class="funkc_proizvoda" id="detoks">
+      <h2>Čajevi za čišćenje organizma</h2><hr>
+      
+      <div class="pro_slikice detoksikacija_kutija"> </div>
+      
+       <div class="tekstic_1">
+          <p>Iznutra isperi svoje tijelo</p>
+        </div>
+      <div class="column_right rl">
+      <div class="pro_slikice detoksikacija_sastav"> </div>
+      </div>
+      <div class="column_right rr">
+        
+        <p>Razni toksini i bolesti kako zbog zagađenja,alkohola, pušenja, loših prehrambenih navika, gradskog života...su se  nakupili u vašem tijelu. Zbog toga ste napeti, vaš metabolizam je u rasulu, patite od stresa i umora. Možda je vrijeme da popijete šalicu našeg "DETOX" čaja kojim čete pročistiti tekućine Vašeg organizma. Uz  sušene listove i komadiće korijena <em>koprive</em>, zajedno sa <em>maslačkom</em> i đumbirom ovaj čaj će obaviti usulgu  Vašem organizmu.
+        </p>
+        
+      </div>
+      
+      <div class="column_left ll">
+          <div class="pro_slikice detoksikacija_junak_super"> </div>
+
+        </div>
+      <div class="column lr">
+        
+          <p><em>Kopriva</em> koja sa velikim udijelom kalija  djeluje diuretički potičući organizam na izlučivanje tekućine i nakupljenih toksina u tijelu. Ujedno umnajuje razinu šećera te se zbog svojih sasojaka uspiješno bori protiv proljeva i hemoroida. Dokazano je da lektini i polisaharidi iz korijena utječu na metabolizam hormona testosterona.
+        </p>
+        <br>
+      </div>
+      <div class="column_right rl">
+        <div class="pro_slikice ..."> </div>
+      </div>
+      <div class="column_right rr">
+        
+        <p><em>Maslačak</em> stimulira sve žljezde i muskulaturu probavnog trakta. Pojačava izlučivanje žlijezda slinovnica, želuca i crijeva, jetre, žučnog mjehura te gušterače.  Ujedno se koristi za čišćenje krvi, potičući metabolizam te tako izlučujuje višak tvar  iz organizma. 
+         
+        </p>
+        
+      </div>
+
+    </section>
+      <div><a class="povratak" href="#sekcija-funkcionalnosti">Povratak</a></div>
+</article>
+    
+
+  <!--NA GORE....SLIKA +NEKI TEKST-->
+
+  
+
+  <!--_______FOOTER -_DOLJE_-->
+  <article class="peta">
+    <article class="lightings">
+      <section class="one1">
+
+        <section class="two2">
+          <section class="three3">
+            <section class="four4">
+              <section class="five5">
+
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </article>
+  </article>
+  <!--/*FOOTER -GORE-->
+
+<footer class="fixed_footer">
+
+  <div class="foot_1">
+
+    <p>krbucar@vsite.hr</p>
+    <p>Croatia, Zagreb</p>
+    <p>Projekt za predmet "Oblikovanje Web Stranica"</p>
+  </div>
+  <div class="logo_footera">
+    <img src="_logo.JPG" class="logo" alt="logo_podnožje">
+  </div>
+
+</footer>
+
+
+
+
+</body>
+
+</html>

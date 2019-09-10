@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pocetna</title>
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="src_struktura/stil_struktura.css">
+  <link rel="stylesheet" href="src_pocetna/body_pocetna.css">
+
+  <script src="src_struktura/jquery-3.4.1.js"></script>
+
+  
+  <!-- Flip tekst -->
+  <script src="jquery-3.4.1.js"></script>
+  <script src="src_pocetna/flip_tekst/textyleF.min.js"></script>
+</head>
+
+<body>
+
+  <nav>
+    <div>
+      <a href="Pocetna.html"><img src="_logo.JPG" class="logo" alt="logo"></a>
+    </div>
+
+    <ul class="menu">
+      <li><a href="#" class="aktiv1">Doma</a> </li>
+      
+      <ul class="podizbornik">
+        <li><a href="Proizvodi.html">Proizvodi</a>
+          <ul class="podizbornik_sadrzi">
+            <li><a href="Biljni.html">Biljni</a></li>
+            <li><a href="Vocni.html">Voćni</a></li>
+            <li><a href="Premium.html">Premium</a></li>
+            <li><a href="Special_edition.html">Special edition</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+            
+      <li><a href="Funkcionalni_cajevi.html">Funkcionalni čajevi</a> </li>
+      
+        <li><a href="O_%C4%8Daju.html">O čaju</a></li>
+      
+      <li><a href="O_nama.html">O nama</a></li>
+    </ul>
+
+    <div class="toggle">
+      <div class="span" id="one"></div>
+      <div class="span" id="two"></div>
+      <div class="span" id="three"></div>
+    </div>
+
+  </nav>
+
+  <header>
+    <div class="headline">
+      <div class="inner">
+        <h1>Dobrodošli</h1>
+        <p>Svijet čaja</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="resize">
+    <ul class="menu">
+      <li><a href="#" class="aktiv1">Doma</a> </li>
+      
+      <ul class="podizbornik">
+        <li><a href="Proizvodi.html">Proizvodi</a>
+          <ul class="podizbornik_sadrzi">
+            <li><a href="Biljni.html">Biljni</a></li>
+            <li><a href="Vocni.html">Voćni</a></li>
+            <li><a href="Premium.html">Premium</a></li>
+            <li><a href="Special_edition.html">Special edition</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+            
+      <li><a href="Funkcionalni_cajevi.html">Funkcionalni čajevi</a> </li>
+      
+        <li><a href="O_%C4%8Daju.html">O čaju</a></li>
+      
+      <li><a href="O_nama.html">O nama</a></li>
+    
+    </ul>
+
+  </div>
+  <!-- za resize-->
+  <script>
+    $(document).ready(function() {
+      console.log("ready!");
+      $(".toggle").click(function() {
+
+        $(this).toggleClass('on');
+        $(".resize").toggleClass("active");
+      })
+    })
+
+  </script>
+
+<!--       --------    -->
+  
+  <article>
+  <section id="flip_tekst">
+    <div id="jquery-script-menu">
+      <div class="jquery-script-center">
+
+        <div class="jquery-script-clear"></div>
+
+      </div>
+    </div>
+    <p class="par ex1">Svijet čaja</p>
+    <p class="par ex2">Krunoslav Bučar</p>
+    <p class="par desc">- Budi sretan... pij čaj -</p>
+
+    <script>
+      $(window).on('load', function() {
+        $('.ex1').textyleF();
+        $('.ex2').textyleF({
+          duration: 2000,
+          delay: 200,
+          easing: 'cubic-bezier(0.785, 0.135, 0.15, 0.86)',
+          callback: function() {
+            $(this).css({
+              color: '#fff',
+              transition: '1s',
+            });
+            $('.desc').css('opacity', 1);
+          }
+        });
+      });
+
+    </script>
+
+  </section>
+   </article>
+  
+  
+  <!-- *************************************** -->
+  <ul class="slideshow">
+    <li><span></span></li>
+   <li><span></span></li>
+	<li><span></span></li>
+	<li><span></span></li>
+	<li><span></span></li>
+    <li><span></span></li>
+</ul>
+  <!-- *************************************** -->
+   
+
+  
+  
+   
+  <!-- END -NA GORE....struktura=jSLIDER-a-->
+
+  <!--1._DIO_____PORUKA____DOLJE... ovo može se staviti u prvi dio flip teksta... hmmm....-->
+ 
+    <section class="tekstic_1">
+
+      <p>
+        Okus za vaše nepce, osvježenje za vaše tijelo... prosvjetljenje za vaš um...
+
+      </p>
+    </section>
+  
+
+  <!--END____1._DIO_____TEKST____GORE-->
+
+  <!--start___SLIKA sa PORUKOM  -->
+  <article>
+    <section>
+      <div id="landing-page2">
+        <div class="page-content">
+          <h2>Mudrost iz šalice čaja</h2>
+          <p>
+            Kako se vodom peremo izvana, tako se čajem peremo iznutra
+
+          </p>
+        </div>
+      </div>
+
+    </section>
+  </article>
+  <!--start___SLIKA sa PORUKOM  -->
+  <article>
+    <section>
+      <p class="par1">Dobro došli na naše stranice gdje svijet vrhunskog čaja počinje! Ovo je svijet prvoklasnog čaja koji će Vaše nepce očarati ljepotom i rapsodijom okusa. Kvaliteta proizvoda i naša ljubav prema proizvodnji vrhunskog čaja neće Vas ostaviti ravnodušnim. </p>
+    </section>
+    <h2>Istraži naše premium čajeve</h2>
+ <section class="red_premium">
+  
+    <a href="Premium.html#arom" class="pro_prez aromatico"></a>
+    <a href="Premium.html#bijela_igla" class="pro_prez igla"></a>
+    <a href="Premium.html#blak_queen" class="pro_prez queen"></a>
+    <a href="Premium.html#glazbena_rapsodija" class="pro_prez rapsodija"></a>
+    <a href="Premium.html#vrtni_thrive" class="pro_prez thrive"></a>
+    <a href="Premium.html#jutarnja_rosa" class="pro_prez rosa"></a>
+    <a href="Premium.html#ruza_rosa" class="pro_prez rosaline"></a>
+   <a href="Premium.html#tropic_thunder" class="pro_prez tropico"></a>
+  
+    </section>
+
+    <section>
+      <p>Veliki trud i obzirnost koju ulažemo u traganju za vrhunskim aromama i okusom se očituje u vjernosti tisuća ljudi koji svakog jutra, u podne ili na kraju radnog dana piju naš čaj. Naši vjerni čajoljupci su prepoznali kvalitetu vrhunskog čaja koji malo koja kompanija može postići. Možda razlog leži što tragamo za savršenstvom. Naravno to podrazumijeva da se svakog dana, mjeseca i godine prilagođavamo novim izazovima. Na kraju ljubav prema čaju uvijek prevlada svakojake poteškoće i izazove i zato naši kupci imaju samo najbolje od čaja.</p>
+    </section>
+    
+    
+        <!-- _start_ MINIIZBORNIK -SPECIAL_EDITION  PROIZVODA-->
+  
+  <article>
+    <h2>Special edition</h2>
+    
+  <section>
+  <div id="art_spec_ed">
+     
+      <section class="okvir_">
+        <a href="Special_edition.html#Indijac">
+          <div class="-icon aa"></div>
+          
+          </a>
+      </section>
+    <section class="okvir_">
+        <a href="Special_edition.html#Japaneros">
+          <div class="-icon bb"></div>
+          </a>
+      </section>
+    <section class="okvir_">
+        <a href="Special_edition.html#Kinez">
+          <div class="-icon cc"></div>
+          </a>
+      </section>
+    
+  </div>
+    </section>
+    </article>
+  
+  <!--   KRAJ MINI_____IZBORNIKA -->
+    
+    <section>
+    <div class="column_right rl">
+
+      <a href="Funkcionalni_cajevi.html">
+        <div class="pro_slikice sli_3"></div>
+      </a>
+    </div>
+      <div class="column_right rr">
+        <p>
+          Rastrojeni ste i pod stresom od svakodnevnih briga i obaveza? Imate puno posla a treba vas stimulirati kako bi postigli veću usredotočenost na zadatak koji stoji pred vama? Muče vas probavne smetnje ili trebate očistiti organizam od toksina koje tijelo svakodnevno nakuplja a zbog toga se osječate umorno i ispražnjeno?
+        </p>
+        <p>Probajte našu paletu proizvoda <em><a href="Funkcionalni_cajevi.html"> Funkcionalnih čajeva</em></a> od kojih svaki ima posebnu namjenu. Isprobajte posebno pripravljene mješavine kako bi pomogli sebi. </p>
+        <p> Uz čaj oslobodite um briga a tijelo napetosti. Opustite se i uživajte u luksuzu jer čaj je doista luksuz. Za naše pripravke koristimo domaće i inozemno bilje samo najbolje kvalitete. Iz raznih kuteva svijeta, čak iz onih djelova čije se udaljenosti broje i nekoliko tisuća kilometara, dolaze vrhunski sastojci naših čajeva a sve kako bi postigli savršenstvo okusa. </p>
+      </div>
+      
+    </section>
+    
+   
+  </article>
+  
+  <article>
+    <!--NA dolje....struktura+++SLIKA
+    <section id="poruka_slika">
+      <div id="landing-page1">
+        <div class="page-content">
+        </div>
+
+      </div>
+      
+    </section>
+  </article>
+  _start_ PORUKA_FLIP -->
+  
+
+  <!--_______FOOTER -_DOLJE_-->
+  <article class="peta">
+    <article class="lightings">
+      <section class="one1">
+
+        <section class="two2">
+          <section class="three3">
+            <section class="four4">
+              <section class="five5">
+
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </article>
+  </article>
+  <!--/*FOOTER -GORE-->
+
+<footer class="fixed_footer">
+
+  <div class="foot_1">
+
+    <p>krbucar@vsite.hr</p>
+    <p>Croatia, Zagreb</p>
+    <p>Projekt za predmet "Oblikovanje Web Stranica"</p>
+  </div>
+  <div class="logo_footera">
+    <img src="_logo.JPG" class="logo" alt="logo_podnožje">
+  </div>
+
+</footer>
+
+
+
+  
+
+</body>
+
+</html>

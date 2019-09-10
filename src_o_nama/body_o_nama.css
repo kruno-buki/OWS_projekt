@@ -1,0 +1,159 @@
+.column_centar{
+  clear: both;
+  float:none;
+  margin-bottom: 20px;
+}
+
+.column_centar {
+ text-align: justify;
+  
+}
+.column_centar.jen{
+  width:100%;
+}
+.column_centar.dve{
+  width:100%;
+}
+.pro_slikice {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 300px;
+  width: 100%;
+  max-width: 90%;
+ 
+ 
+}
+
+.pro_slikice.sli_1{
+  background-image:url(stranica_mala.jpg);
+   background-position: center;
+  background-size: contain;
+  
+}
+.pro_slikice.sli_2{
+  background-image:url(putic.jpg);
+   background-position: center;
+  background-size: cover;
+  border-radius:15px;
+  
+}
+.pro_slikice.sli_3{
+  background-image:url(tvornica_%C4%8Daja.jpeg);
+   background-position: center;
+  background-size: contain;
+  
+}
+.pro_slikice.sli_4{
+  background-image:url(polje%20%C4%8Daja%20u%20indiji.jpg);
+   background-position: center;
+  background-size: 400px;
+  
+}
+.pro_slikice.sli_5{
+  background-image:url(prozor.jpg);
+   background-position: center;
+  background-size: contain;
+  
+}
+hr {
+  margin: 25px 0;
+}
+header {
+  background: #111;
+  background-image: url(poklopa_obrada.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  
+}
+section {
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 80%;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.o_nama_edit h2{
+   font-family: Engravers MT;
+  font-size: 30px;
+  max-width: 90%;
+   color: #ddd;
+  /*color:red; ne*/
+  text-shadow: 2.5px 1.5px 40.5px #FD5FF6;
+    
+  text-align: center;
+  line-height: 25px;
+ margin-top:20px;
+  margin-bottom:20px;
+  text-transform: uppercase;
+  letter-spacing: 10px;/*10*/
+}
+
+
+article p{
+  
+  text-align: justify;
+  max-width: 95%;
+  width:100%;
+ 
+}
+.granica-galerije{
+  width: 160px;
+  height: 4px;
+  background: darkred;
+  margin: 40px auto;
+}
+/*kolumna*/
+/*DOLJE____ za kolumne */
+
+.column_left {
+  float: left;
+  /*padding:10px;*/
+  /*height: 500px;*/
+}
+
+.column_left.ll {
+  width: 55%;
+
+}
+
+.column_left.lr {
+  width: 45%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column_right {
+  float: right;
+  /*padding:10px;*/
+  /* height:500px;mozes i maknuti*/
+}
+
+.column_right.rl {
+  width: 45%;
+
+}
+
+.column_right.rr {
+  width: 55%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and(max-width:600px) {
+  .column_right {
+    width: 100%;
+  }
+}

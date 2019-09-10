@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biljni cajevi</title>
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="src_struktura/stil_struktura.css">
+
+  <link rel="stylesheet" href="src_proizvodi/body_proizvodi.css">
+
+  <script src="src_struktura/jquery-3.4.1.js"></script>
+
+
+</head>
+
+<body>
+
+  <nav>
+    <div>
+      <a href="Pocetna.html"><img src="_logo.JPG" class="logo kut" alt="Logo"></a>
+    </div>
+
+    <ul class="menu">
+      <li><a href="Pocetna.html">Doma</a> </li>
+
+      <ul class="podizbornik">
+        <li><a href="Proizvodi.html" class="aktiv1">Proizvodi</a>
+
+          <ul class="podizbornik_sadrzi">
+            <li><a href="#" class="aktiv2">Biljni</a></li>
+            <li><a href="Vocni.html">Voćni</a></li>
+            <li><a href="Premium.html">Premium</a></li>
+            <li><a href="Special_edition.html">Special edition</a></li>
+
+          </ul>
+        </li>
+      </ul>
+
+      <li><a href="Funkcionalni_cajevi.html">Funkcionalni čajevi</a> </li>
+
+      <li><a href="O_čaju.html">O čaju</a></li>
+
+      <li><a href="O_nama.html">O nama</a></li>
+    </ul>
+
+    <div class="toggle">
+      <div class="span" id="one"></div>
+      <div class="span" id="two"></div>
+      <div class="span" id="three"></div>
+    </div>
+
+  </nav>
+
+  <header>
+    <div class="headline biljni">
+      <div class="inner">
+
+      </div>
+    </div>
+  </header>
+
+  <div class="resize">
+    <ul class="menu">
+      <li><a href="Pocetna.html">Doma</a> </li>
+
+      <ul class="podizbornik">
+        <li><a href="Proizvodi.html" class="aktiv1">Proizvodi</a>
+
+          <ul class="podizbornik_sadrzi">
+            <li><a href="#" class="aktiv2">Biljni</a></li>
+            <li><a href="Vocni.html">Voćni</a></li>
+            <li><a href="Premium.html">Premium</a></li>
+            <li><a href="Special_edition.html">Special edition</a></li>
+
+          </ul>
+        </li>
+      </ul>
+
+      <li><a href="Funkcionalni_cajevi.html">Funkcionalni čajevi</a> </li>
+
+      <li><a href="O_čaju.html">O čaju</a></li>
+
+      <li><a href="O_nama.html">O nama</a></li>
+    </ul>
+
+  </div>
+  <!-- za resize-->
+  <script>
+    $(document).ready(function() {
+      console.log("ready!");
+      $(".toggle").click(function() {
+
+        $(this).toggleClass('on');
+        $(".resize").toggleClass("active");
+      })
+    })
+  </script>
+
+  <!-- *************************************** -->
+  <!-- *************************************** -->
+  <!-- _start_ GALERIJA PREMIUM PROIZVODA-->
+  <article class="tekst_spec_ed">
+    <section>
+
+      <p>Isprobajte naše prirodno i ljekovito bilje otopljeno u šalici Vašeg toplog čaja. </p>
+
+    </section>
+  </article>
+
+  <article class="bilje_voce">
+
+    <div class="granica-galerije"></div>
+    <h2>Crni čaj</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_left ll">
+
+        <div class="pro_slikice crni" id="blak"> </div>
+      </div>
+      <div class="column lr">
+
+        <p>
+          Crni čaj je antioksidans kojim se štite stanice i DNA od oštećenja. Ujedno djeluje pozitivno na imunološki sustav
+        </p>
+        <p>Dan započnite sa crnim čajem koji će vas dugo držati usredotočenim na posao koji morate obaviti.</p>
+      </div>
+
+
+    </section>
+    <div class="granica-galerije"></div>
+    <h2>Crni čaj sa jasminom</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_right rl">
+
+        <div class="pro_slikice crni_jasmin"></div>
+      </div>
+      <div class="column_right rr">
+
+        <p>
+          Klasični, crni čaj, Vam je možda gorak i nema posebnog mirisa. Kada probate crni čaj sa laticama sušenog jasmina očarat će Vas miris koji ovaj čaj posjeduje.
+        </p>
+        <p>Jasmin ima jako dobro antibakterijsko, antivirusno i protuupalno djelovanjedjelovanje </p>
+      </div>
+
+    </section>
+    <div class="granica-galerije"></div>
+    <h2>Crni čaj sa narančom</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_left ll">
+
+        <div class="pro_slikice crni_naranča"></div>
+      </div>
+      <div class="column lr">
+
+        <p>
+          Sušeni komadići organski uzgojene naranče u kombinaciji sa crnim čajem je za Vaše oko i nepce jednostavno najbolja kombinacija.
+        </p>
+      </div>
+
+
+    </section>
+
+    <div class="granica-galerije"></div>
+    <h2>Crni sa laticama suncokreta</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_right rl">
+
+
+        <div class="pro_slikice crni_suncokret"></div>
+      </div>
+      <div class="column_right rr">
+        <p>
+          Sa hrvatskih polja gdje su uzgojeni i gdje su sušene latice suncokreta te Indije, gdje je lišće čajevca sakupljeno, spojla se nepogrešiva žuto-crna kombinacija.
+        </p>
+      </div>
+
+    </section>
+
+
+    <div class="granica-galerije"></div>
+    <h2>Đumbir sa cimetom i limunom</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_left ll">
+
+        <div class="pro_slikice dumbir_cim_lim"></div>
+      </div>
+      <div class="column lr">
+
+        <p>
+
+          Muči Vas prehlada, nedostaje Vam vitamina C ili jednostavno želite probati ovaj ukusan i zdrav čaj sa okusom ljutine đumbira onda je ovo čaj za Vas.
+        </p>
+      </div>
+
+
+    </section>
+
+    <div class="granica-galerije"></div>
+    <h2>Đumbir sa limunom</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_right rl">
+
+        <div class="pro_slikice dumbir_limun"></div>
+      </div>
+      <div class="column_right rr">
+        <p>
+          Ne sviđa Vam se kombinacija sa cimetom ali ipak volite đumbir u kombinaciji sa limunom. Ova kombinacija sušenih komadića zdravog đumbira i limuna je prava za Vas.
+        </p>
+      </div>
+
+    </section>
+
+    <div class="granica-galerije"></div>
+
+    <h2>Hibiskus</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_left ll">
+
+        <div class="pro_slikice hibiskus"></div>
+      </div>
+      <div class="column lr">
+
+
+        <p>
+          Crvena,tropska boja ovog cvijeta je jednostavno neodoljiva a otopljene sušene latice u Vašoj šalici čaja će zadovoljiti Vaše nepce i pridonijjeti Vašem zdravlju. Čaj može smanjiti krvni tlak, kolesterol, i pomoći Vam održavati zdravu probavu i hidrataciju organizma.
+        </p>
+      </div>
+
+
+    </section>
+    <div class="granica-galerije"></div>
+    <h2>Jasmin</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_right rl">
+
+        <div class="pro_slikice jasmin"></div>
+      </div>
+      <div class="column_right rr">
+
+
+        <p>
+          Razne su dobrobiti ovog čaja među kojima je ublažavanje glavobolje, depresije i stresnog načina života. Smirite Vaše napete živce uz okus i neodoljivi miris šalice jednog toplog čaja od jasmina.
+        </p>
+      </div>
+
+    </section>
+
+    <div class="granica-galerije"></div>
+    <h2>Kamilica</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_left ll">
+        <div class="pro_slikice kamilica"></div>
+      </div>
+      <div class="column lr">
+
+        <p>
+          Kamilica, tako uobičajna ali opet tako neprocjenjiva. Ova čudesna biljka, kao jedan od najpopularnijih čajeva, svakako opravdava svoj prestiž. Sušene latice biološki uzgojene i ubrane na hrvatskim poljima pune su zdravlja i blagodati za Vaš organizam. Okrijepite svoj um i tijelo uz najbolju kvalitetu.
+          Čaj bez kamilice se doista ne može zamisliti.
+        </p>
+      </div>
+
+
+    </section>
+    <div class="granica-galerije"></div>
+    <h2>Kamilica i latice suncokreta</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_right rl">
+
+        <div class="pro_slikice kamilica_suncokret"></div>
+      </div>
+      <div class="column_right rr">
+
+
+        <p>
+          Kombinacija žutih boja ubranih na hrvatskim poljima je jednostavno čarobna. Sušene latice suncokreta i kamilice će Vas natjerati da se zaljubite u ovaj čaj.
+        </p>
+      </div>
+
+    </section>
+    <div class="granica-galerije"></div>
+
+    <section class="picture_proizvoda">
+      <h2>Komorač</h2>
+      <div class="column_left ll">
+
+        <div class="pro_slikice komorac"></div>
+      </div>
+      <div class="column lr">
+
+
+
+        <p>
+          Ova aromatično začinsko bilje će pročistiti Vaš organizam i smiriti upale. Ovaj čaj je bogat mineralima kao što je kalij, magnezij i kalcij ali uz to još sadrži antioksidanse koji će pomoći Vašem organizmu da ga zaštiti od upala. Za Vašu umornu jetru i bubrege će doći kao melem.
+        </p>
+      </div>
+
+
+    </section>
+    <div class="granica-galerije"></div>
+    <h2>Menta</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_right rl">
+
+        <div class="pro_slikice menta"></div>
+      </div>
+      <div class="column_right rr">
+
+        <p>
+          Osvježavajući miris ovog čaja jednostavno će Vas ispuniti svježinom a okus blage ljutine će pročistiti Vaše grlo. Organski uzgojena biljka mente je pažljivo osušena kako bi se očuvala što veća količina ulja mentola i metona, koje ova biljka posjeduje a pomažu u probavi a pogotovo kod prehlade i gripe.
+        </p>
+      </div>
+
+    </section>
+    <div class="granica-galerije"></div>
+    <h2>Rooibos</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_left ll">
+
+        <div class="pro_slikice rooibos"></div>
+      </div>
+      <div class="column lr">
+
+
+
+        <p>
+          Ovaj čaj u proteklo vrijeme dobiva sve veću pažnju zbog svoje dobrobiti na ljudski organizam i imunitet. Kao pomoćno sredstvo kod alergija postat će Vam nezamjenjiva.
+        </p>
+      </div>
+
+
+    </section>
+    <div class="granica-galerije"></div>
+    <h2>Rooibos i vanilija</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_right rl">
+
+        <div class="pro_slikice rooibos_vanilija"></div>
+      </div>
+      <div class="column_right rr">
+        <p>
+          Umirujuće svojstvo rooibosa zajedno sa svojim zdravstvenim blagodatima u kombinaciji sa mirisnim i ukusnim komadićima vanilije će Vam dati jedno zadovoljstvo i mir. Kako Rooibos ne sadrži kofein već više djeluje na smiravanje Vašeg tijela i uma te kao potporanj imunosnom sustavu, smatramo da kombinacija sa vanilijom će vas usrećiti.
+        </p>
+      </div>
+
+    </section>
+    <div class="granica-galerije"></div>
+    <h2>Zeleni čaj</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_left ll">
+
+        <div class="pro_slikice zeleni"></div>
+      </div>
+      <div class="column lr">
+
+
+
+
+        <p>
+          Zeleni čaj, kao i crni je jednostavno klasik među čajevima. Odabirom našeg zelenog čaja uživat ćete u najboljem okusu zelenog čaja kojeg ste probali. Ujutro će Vas probuditi, i dugo držati usredotočenim na rad ili učenje a okus i zdravlje kojeg dobijete mogu ponuditi samo najbolji.
+        </p>
+      </div>
+
+
+    </section>
+    <div class="granica-galerije"></div>
+
+    <h2>Zeleni i lavanda</h2>
+    <section class="picture_proizvoda">
+
+      <div class="column_right rl">
+
+        <div class="pro_slikice zeleni_lavanda"></div>
+      </div>
+      <div class="column_right rr">
+
+
+
+
+        <p>
+          Zeleni, suhi i sitno narezani listovi u kombinaciji sa sušenim laticama lavande će Vas očarati svojom opojnošću i zdravljem.
+        </p>
+      </div>
+
+    </section>
+
+    <div class="granica-galerije"></div>
+
+  </article>
+
+
+
+  <!--_______FOOTER -_DOLJE_-->
+  <article class="peta">
+    <article class="lightings">
+      <section class="one1">
+
+        <section class="two2">
+          <section class="three3">
+            <section class="four4">
+              <section class="five5">
+
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </article>
+  </article>
+  <!--/*FOOTER -GORE-->
+
+  <footer class="fixed_footer">
+
+    <div class="foot_1">
+
+      <p>krbucar@vsite.hr</p>
+      <p>Croatia, Zagreb</p>
+      <p>Projekt za predmet "Oblikovanje Web Stranica"</p>
+    </div>
+    <div class="logo_footera">
+      <img src="_logo.JPG" class="logo" alt="logo_podnožje">
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>
